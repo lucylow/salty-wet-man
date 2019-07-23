@@ -8,8 +8,8 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow mac
 ### Classifier 
 * Defining NSFW material is subjective and the task of identifying these images is non-trivial.
 * Identification into two categories
-  * [SFW] positively trained for neutral images
-  * [NSFW] negatively trained for pornographic images 
+  * [SFW] positively trained for neutral images that are safe for work ex anime.
+  * [NSFW] negatively trained for pornographic images involving sexually explicit images, sexual acts, hentai, or pornographic drawings.
 
 ### Tools
 * TensorflowJS Image Model
