@@ -46,7 +46,7 @@ function parseArguments() {
   parser.addArgument('--inputImage', {
     type: 'string',
     defaultValue: '',
-    help: 'Path to the input image. If specified, will compute the internal' +
+    help: 'Path to the NSFW input image. If specified, will compute the internal' +
         'activations of the specified convolutional layers. If not specified, ' +
         'will compute the maximally-activating input images using gradient ascent.'
   });
