@@ -29,7 +29,7 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow mac
    `dist/activation` directory. [**requires heavy computation**]
 5. Compile and launch the web view
 
-## How to install
+## How to install + Prepare node environment
 
 Run the command:
 ```sh
