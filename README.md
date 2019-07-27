@@ -3,7 +3,7 @@
 ![alt text](https://github.com/lucylow/salty-wet-man/blob/master/64330371_573206533208216_2036770996110753792_n.png)
 
 ### General
-Not Suitable for Work (NSFW) image classification using Keras and Tensorflow machine learning tools.
+Not Suitable for Work (NSFW) image classification using Keras and Tensorflow machine learning tools. [**Requires heavy computation**]
 
 ### Classifier 
 * Defining NSFW material is subjective and the task of identifying these images is non-trivial.
@@ -22,11 +22,11 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow mac
 3. Launch a Node.js script to load the converted model and compute
    the maximally-activating input images for the convnet's filters
    using gradient ascent in the input space and save them as image
-   files under the `dist/filters` directory [**requires heavy computation**]
+   files under the `dist/filters` directory [**Requires heavy computation**]
 4. Launch a Node.js script to calculate the internal convolutional
    layers' activations and th gradient-based class activation
    map (CAM) and save them as image files under the
-   `dist/activation` directory. [**requires heavy computation**]
+   `dist/activation` directory. [**Requires heavy computation**]
 5. Compile and launch the web view
 
 ## How to install + Prepare node environment
@@ -46,6 +46,7 @@ layer from the default 8 to a larger value, e.g., 32:
 ```sh
 yarn visualize --gpu --filters 32
 ```
+ [requires heavy computation]
 
 The default image used for the internal-activation and CAM visualization is
 "nsfw.jpg". You can switch to another image by using the "--image" waifu-pic, e.g.,
