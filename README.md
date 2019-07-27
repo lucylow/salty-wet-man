@@ -3,9 +3,9 @@
 ![alt text](https://github.com/lucylow/salty-wet-man/blob/master/64330371_573206533208216_2036770996110753792_n.png)
 
 ### General
-Not Suitable for Work (NSFW) image classification using Keras and Tensorflow machine learning tools. [**Requires heavy computation**]
+Not Suitable for Work (NSFW) image classification using Keras and Tensorflow machine learning tools. [**Requires heavy computation.**]
 
-### Classifier 
+### Classifier. 
 * Defining NSFW material is subjective and the task of identifying these images is non-trivial.
 * Identification into two categories
   * [SFW] positively trained for neutral images that are safe for work.
@@ -22,11 +22,11 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow mac
 3. Launch a Node.js script to load the converted model and compute
    the maximally-activating input images for the convnet's filters
    using gradient ascent in the input space and save them as image
-   files under the `dist/filters` directory [**Requires heavy computation**]
+   files under the `dist/filters` directory [**Requires heavy computation.**]
 4. Launch a Node.js script to calculate the internal convolutional
    layers' activations and th gradient-based class activation
    map (CAM) and save them as image files under the
-   `dist/activation` directory. [**Requires heavy computation**]
+   `dist/activation` directory. [**Requires heavy computation.**]
 5. Compile and launch the web view
 
 ## How to install + Prepare node environment
