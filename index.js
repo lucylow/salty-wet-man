@@ -1,11 +1,6 @@
-
-/**
- * Front-end
- *
- * It loads the image files and associated metainformation generated
- * by main.js in Node.js.
- */
-
+// Front-end : loads image files and associated metainformation 
+// Uses main.js + Node.js.
+ 
 const vizSection = document.getElementById('viz-section');
 const vizTypeSelect = document.getElementById('viz-type');
 const imageResultSection = document.getElementById('image-result');
