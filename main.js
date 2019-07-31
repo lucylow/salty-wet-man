@@ -1,24 +1,4 @@
-/**
- * @license
- * Copyright 2019 Google LLC. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * =============================================================================
- */
-
-/**
- * Based on
- * https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/5.4-visualizing-what-convnets-learn.ipynb
- */
+// REFERENCE: https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/5.4-visualizing-what-convnets-learn.ipynb
 
 const argparse = require('argparse');
 const fs = require('fs');
@@ -72,19 +52,8 @@ function parseArguments() {
   return parser.parseArgs();
 }
 
-/**
- * Calcuate and save the maximally-activating input images for a covn2d layer.
- *
- * @param {tf.Model} model The model that the conv2d layer of interest belongs
- *   to.
- * @param {string} layerName The name of the layer of interest.
- * @param {number} numFilters Number of the conv2d layer's filter to calculate
- *   maximally-activating inputs for. If this exceeds the number of filters
- *   that the conv2d layer has, it will be cut off.
- * @param {string} outputDir Path to the directory to which the output image
- *   will be written.
- * @returns {string[]} Paths to the image files generated in this call.
- */
+ // Calcuate and save the maximally-activating input images for a covn2d layer.
+
 async function writeConvLayerFilters(
     model, layerName, numFilters, iterations, outputDir) {
   const filePaths = [];
@@ -130,7 +99,7 @@ async function run() {
   }
 
   if (args.inputImage != null && args.inputImage !== '') {
-    // Compute the internal activations of the conv layers' outputs.
+    // Compute  internal activations of the conv layers' outputs.
     const imageHeight = model.inputs[0].shape[1];
     const imageWidth = model.inputs[0].shape[2];
     const x = await utils.readImageTensorFromFile(
@@ -156,7 +125,7 @@ async function run() {
           `${probScores[i].toFixed(4)}`);
     }
 
-    // Save the original input image and the top-10 classification results.
+    // Save original NSFW input image and the top-10 classification results.
     const origImagePath =
         path.join(args.outputDir, path.basename(args.inputImage));
     shelljs.cp(args.inputImage, origImagePath);
@@ -183,8 +152,7 @@ async function run() {
     const manifestPath = path.join(args.outputDir, 'activation-manifest.json');
     fs.writeFileSync(manifestPath, JSON.stringify(manifest));
   } else {
-    // Calculate the maximally-activating input images for the conv layers'
-    // filters.
+    // Calculate the maximally-activating input images for the conv layers
     const layerNames = args.convLayerNames.split(',');
     const manifest = {layers: []};
     for (let i = 0; i < layerNames.length; ++i) {
