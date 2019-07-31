@@ -27,7 +27,7 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow mac
    layers' activations and th gradient-based class activation
    map (CAM) and save them as image files under the
    `dist/activation` directory. [**Requires heavy computation.**]
-5. Compile and launch the web view
+5. Compile and launch the web view at **https://lucylow.github.io/salty-wet-man/**.
 
 ## How to install + Prepare node environment
 
@@ -55,10 +55,6 @@ The default image used for the internal-activation and CAM visualization is
 yarn visualize --image NSFW.jpg
 ```
 
-
-### Tools
-* TensorflowJS Image Model
-* Keras Image Model
 
 
 
