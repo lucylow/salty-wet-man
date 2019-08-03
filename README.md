@@ -1,17 +1,17 @@
-# salty-wet-man
+# salty-wet-man &#x1F499;
 
 ![alt text](https://github.com/lucylow/salty-wet-man/blob/master/64330371_573206533208216_2036770996110753792_n.png)
 
-### General
+### General &#x1F499;
 Not Suitable for Work (NSFW) image classification using Keras and Tensorflow machine learning tools. [**Requires heavy computation.**]
 
-### Classifier. 
+### Classifier &#x1F499;
 * Defining NSFW material is subjective and the task of identifying these images is non-trivial.
 * Identification into two categories
   * [SFW] positively trained for neutral images that are safe for work.
   * [NSFW] negatively trained for pornographic images involving sexually explicit images, acts, or drawings.
 
-## Technical
+## Technical &#x1F499;
 
 1. Install Python dependencies including required
    Python package (keras, tensorflow and tensorflowjs). To prevent 
@@ -29,7 +29,7 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow mac
    `dist/activation` directory. [**Requires heavy computation.**]
 5. Compile and launch the web view at **https://lucylow.github.io/salty-wet-man/**.
 
-## How to install + Prepare node environment
+## How to install + Prepare node environment &#x1F499;
 
 Run the command:
 ```sh
