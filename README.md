@@ -24,11 +24,11 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js.
 
 1. Install Python dependencies and packages (**Keras, TensorFlow, and TensorFlow.js**). Best to run from [virtualenv](https://virtualenv.pypa.io/en/latest/)
    
-2. Download and convert the **VGG16 model to TensorFlow.js format **
+2. Download and convert the VGG16 model to TensorFlow.js format
 
-3. Launch Node.js script to **load converted model and compute maximally-activating input images** for  convnet's filters using gradient ascent in the input space. Save image files under `dist/filters` directory 
+3. Launch Node.js script to **load converted model** and compute **maximally-activating input images** for  convnet's filters using gradient ascent in the input space. Save image files under `dist/filters` directory 
    
-4. Launch Node.js script to **calculate internal convolutional layers' activations and gradient-based Class Activation Map (CAM)**. Save image files under `dist/activation` directory. 
+4. Launch Node.js script to **calculate internal convolutional layers' activations** and gradient-based **Class Activation Map (CAM)**. Save image files under `dist/activation` directory. 
    
 5. Compile. Launch web view... **https://lucylow.github.io/salty-wet-man/**
 
@@ -67,7 +67,7 @@ yarn visualize --image waifu-pic.jpg
 
 
 
-┬┴┬┴┤ʕ•ᴥ├┬┴┬┴
+**┬┴┬┴┤ʕ•ᴥ├┬┴┬┴**
 
 
 
