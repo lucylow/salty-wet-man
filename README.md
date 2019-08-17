@@ -61,11 +61,11 @@ yarn visualize --gpu --filters 18
 ```
 
 
-Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic"** 👀
+Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic.jpeg"** 👀
 
 
 ```sh
-yarn visualize --image waifu-pic.jpg
+yarn visualize --image waifu-pic.jpeg
 ```
 
 
