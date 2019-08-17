@@ -1,4 +1,6 @@
-# salty-wet-man &#x1F499;
+# SALTY WET MAN &#x1F499;
+
+## Intro &#x1F499;
 
 Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js.
 
@@ -7,20 +9,20 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js.
 ---
 
 
-### Classifier &#x1F499;
+## Classifier &#x1F499;
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**.
 * Identification into two categories:
 
-  * [SFW] positively trained for **neutral images** that are safe for work.
+  * [SFW] positively trained for **neutral images** that are safe for work
   
-  * [NSFW] negatively trained for **pornographic images** involving sexually explicit images. 
+  * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
 
 
 ---
 
 
-## Technical - requires heavy computation** &#x1F499;
+## Technical Installations - requires heavy computation &#x1F499;
 
 1. Install Python dependencies and packages (**Keras, TensorFlow, and TensorFlow.js**). Best to run from [virtualenv](https://virtualenv.pypa.io/en/latest/)
    
@@ -30,13 +32,13 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js.
    
 4. Launch Node.js script to **calculate internal convolutional layers' activations** and gradient-based **Class Activation Map (CAM)**. Save image files under `dist/activation` directory. 
    
-5. Compile. Launch web view... **https://lucylow.github.io/salty-wet-man/**
+5. Compile. Launch web view at **https://lucylow.github.io/salty-wet-man/**
 
 
 ---
 
 
-## Technical Installations &#x1F499;
+## Technical Visualizations &#x1F499;
 
 Run command:
 
