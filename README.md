@@ -4,7 +4,7 @@
 
 <div>
   
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![Status](https://img.shields.io/badge/status-work--in--progress-success.svg)]()
   [![GitHub Issues](https://img.shields.io/github/issues/lucylow/salty-wet-man.svg)](https://github.com/lucylow/salty-wet-man/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/salty-wet-man.svg)](https://github.com/lucylow/salty-wet-man/pulls)
   [![License](https://img.shields.io/bower/l/bootstrap)]()
@@ -61,7 +61,7 @@ yarn visualize --gpu --filters 18
 ```
 
 
-*Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic"** 👀
+Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic"** 👀
 
 
 ```sh
