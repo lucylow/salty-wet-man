@@ -1,4 +1,4 @@
-# SALTY WET MAN &#x1F499;
+# Salty Wet Man &#x1F499;
 
 ## Motivation &#x1F499;
 
@@ -54,7 +54,7 @@ yarn visualize --gpu --filters 18
 ```
 
 
-*Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic"** 👀👀.
+*Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic"** 👀
 
 
 ```sh
