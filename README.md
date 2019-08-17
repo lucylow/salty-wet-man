@@ -1,8 +1,15 @@
 # Salty Wet Man &#x1F499;
 
-## Motivation &#x1F499;
+**Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js**
 
-Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js
+<div>
+  
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![GitHub Issues](https://img.shields.io/github/issues/lucylow/salty-wet-man.svg)](https://github.com/lucylow/salty-wet-man/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/salty-wet-man.svg)](https://github.com/lucylow/salty-wet-man/pulls)
+  [![License](https://img.shields.io/bower/l/bootstrap)]()
+
+</div>
 
 ![alt text](https://github.com/lucylow/salty-wet-man/blob/master/64330371_573206533208216_2036770996110753792_n.png)
 
