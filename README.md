@@ -71,6 +71,18 @@ yarn visualize --image waifu-pic.jpeg
 
 ---
 
+## References &#x1F499;
+
+* Alex Krizhevsky et al. 2012. ImageNet Classification with Deep Convolutional Networks
+* Machine Learning with Julia: Elegance, Speed and Ease | Innes & Yuret. https://www.youtube.com/watch?v=21_wokgnNog
+* Keras Documentation. https://keras.io/applications/#extract-features-with-vgg16
+* Tensorflow tf.keras Application API. https://www.tensorflow.org/api_docs/python/tf/keras/applications/VGG16
+* YahooEng's Caffe DL library and CaffeOnSpark model. https://yahooeng.tumblr.com/post/151148689421/open-sourcing-a-deep-learning-solution-for
+* Gabriel Goh. Image Synthesis from Yahoo's open_nsfw. https://open_nsfw.gitlab.io/
+* Client-Side NSFW Image Classification. https://nsfwjs.com/
+* Finding Naked People. 1996. Classic paper. http://luthuli.cs.uiuc.edu/~daf/papers/naked.pdf
+* https://machinelearningmastery.com/use-pre-trained-vgg-model-classify-objects-photographs/
+
 
 
 
