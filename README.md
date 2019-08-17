@@ -8,16 +8,19 @@ Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js.
 
 
 ### Classifier &#x1F499;
+
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**.
 * Identification into two categories:
+
   * [SFW] positively trained for **neutral images** that are safe for work.
+  
   * [NSFW] negatively trained for **pornographic images** involving sexually explicit images. 
 
 
 ---
 
 
-## Technical [**Requires heavy computation.**]&#x1F499;
+## Technical - requires heavy computation** &#x1F499;
 
 1. Install Python dependencies and packages (**Keras, TensorFlow, and TensorFlow.js**). Best to run from [virtualenv](https://virtualenv.pypa.io/en/latest/)
    
@@ -59,6 +62,8 @@ yarn visualize --image waifu-pic.jpg
 
 
 ---
+
+
 
 
 
