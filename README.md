@@ -35,13 +35,21 @@
   * Stationarity of statistics
   * Locality of pixel dependencies  
 
+**NSFW Images**
 
-**CNN GPU Implementation**
+  * Static images
+  * Uncontrolled backgrounds
+  * Multiple people and partial figures
+  * Different camera angles
+
+
+**GPU Implementation**
 
   * **Heavy computation required** - Size of CNN network limited by GPU memory avaliabe
   * Highly optomized implementation of 2D convolutions
   * Solution to spread network over multiple GPUs via **parallel processing**
   
+
 ---
 
 ## Object Recognition &#x1F499;
@@ -52,23 +60,12 @@
   * Large image datasets (order of hundreds of thousands of images) - ImageNet
  
 
-**Large Dataset - ImageNet**
+**ImageNet used for Large Scale Object Recognition**
 
   * **Dataset over 15 million labeled images**
   * Variable-resolution images (256x256)
   * Training, validation, and testing images
   * Annual competition - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC) 
-  
-
----
-
-## NSFW Images  &#x1F499;
-
-  * Static images
-  * Uncontrolled backgrounds
-  * Multiple people and partial figures
-  * Different camera angles
-  
   
 ---  
 
@@ -102,7 +99,7 @@
 
 ---
 
-## Classifier - VGG16 model &#x1F499;
+## Neural Network Classifier - VGG16 model &#x1F499;
 
 * VGG16 is a CNN for large-scale image recognition 
 * **Model achieves 92.7% top-5 test accuracy on ImageNet**
@@ -137,7 +134,7 @@
 ---
 
 
-## Errors and Overfitting &#x1F499;
+## Neural Network Errors and Overfitting &#x1F499;
 
 **Data Augmentation**
 
