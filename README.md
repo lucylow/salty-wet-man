@@ -27,7 +27,7 @@
 ---
 
 
-## Convolutionl Neural Networks (CNN) &#x1F499;
+## Convolutional Neural Networks (CNN) &#x1F499;
   
 **Image Datasets**
 
@@ -66,7 +66,7 @@
 
   * Static images
   * Uncontrolled backgrounds
-  * Multiple (more-than-one) people
+  * Multiple people
   * Partial figures
   * Different camera angles
   
@@ -83,11 +83,16 @@
   * Intensity of image (texture) smoothered with median filter subtracted with original image
   * **QBIC search - operator uses absraction of an image to search for colored textured regions**
 
+[Insert image of QBIC algorithm]
+
 **Find elongated regions**
 
   * Grouped **2D and 3D constraints** on body/skin regions
   * Modelling humans == **cylindrical parts within the skeleton geometry**
   * Imaging model to identify region outlines
+
+[Insert image of 2D/3D constraints]
+
 
 **Classify regions into possible human limbs**
 
