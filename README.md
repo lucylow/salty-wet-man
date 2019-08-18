@@ -28,7 +28,7 @@
 
 * Machine Learning methods for object recognition  
 
-**Labeled image-training datasets **
+**Labeled image-training datasets**
   
   1) Small image datasets
     * Order of tens of thousands of images
@@ -54,45 +54,42 @@
 
 ---
 
-## NSFW Object Recognition
+## NSFW Images  &#x1F499;
 
-* NSFW Images 
-  * static images
-  * uncontrolled backgrounds
-  * multiple (more-than-one) people
-  * partial figures
-  * different camera angles
+**Types of Images to be analyzed:**
 
-* General idea 
-  1) Find image location with large areas of skin-colored regions
-  2) Find elongated regions 
-  3) Clasiffy regions into possible human limbs
-
-* Content-based retrival strategy
-  * skin regions in an image - input RGB values with log-oppoennt representation
-  * color and texture properties - intensity of image smoothered with median filter subtracted with original image
-  * simple hape features
-  * grouped constraints on body/skin regions
+  * Static images
+  * Uncontrolled backgrounds
+  * Multiple (more-than-one) people
+  * Partial figures
+  * Different camera angles
   
   
-* systems 
-  * QBIC SEARCH - operateor uses absraction ofa n image to search for colored, textured regions
-  * Chabot - visual appearance and text-based ceus to retrieve images
+---  
+
+## NSFW Object Recognition: Content-Based Retrival &#x1F499;
 
 
-Grouped Constraints on Body/Skin Regions
+**1) Find image location with large areas of skin-colored regions:**
 
-* idea
-  * humans == cylindrical parts within the skeleton geometry
+  * Skin regions in an image and color and texture properties 
+  * Input RGB values with log-oppoent representation
+  * Intensity of image smoothered with median filter subtracted with original image
+  * QBIC search - operator uses absraction of an image to search for colored textured regions
+
+**2) Find elongated regions:**
+
+  * Grouped constraints on body/skin regions
+  * Modelling humans == cylindrical parts within the skeleton geometry
   * 3D and 2D grouping constraints
-  * imaging model to indeitfy outlines
+  * Imaging model to identify region outlines
 
+**3) Classify regions into possible human limbs:**
 
-* geometric grouping algorithms
-  * matching a view to a collection of images of an object
-  * make a hypothesis object is present, and an estimate of appearance
-  * future vector from compressed image 
-  * minimum distance classifer to match feature vectors
+  * Geometric grouping algorithms - matching a view to a collection of images of an object
+  * Make a hypothesis object is present, and an estimate of appearance
+  * Future vector from compressed image 
+  * Minimum distance classifer to match feature vectors
 
 
 ---
