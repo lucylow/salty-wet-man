@@ -78,12 +78,14 @@
   * Skin region properties - image, color, and texture  
   * **Input RGB values (skin)** with log-opponent representation
   * Intensity of image (texture) smooth-ed with median filter, then subtracted from original image
+  
   * **Query By Image Content (QBIC)**
     * Absraction of an image to search for colored textured regions
     * Uses image decomposition, pattern matching, and clustering algorithms
     * Find a set of images similar to a query image
 
-[Content/Query based image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
+
+![Image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
 
 **Elongated Regions Grouping**
 
@@ -189,6 +191,8 @@ Increase the **number of filters to visualize per convolutional layer** from def
 ```sh
 yarn visualize --gpu --filters 18
 ```
+
+![Image retrival](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/waifu.png)
 
 
 Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic.jpeg"** 👀
