@@ -17,7 +17,7 @@
 ## Introduction &#x1F499; 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
-* Input RGB image of size 224x224x3 - Identification into two categories:
+* Identification into two categories:
 
   * [SFW] positively trained for **neutral images** that are safe for work
   
@@ -31,36 +31,30 @@
   
 **Image Datasets**
 
-  * Theoretically best -> Large learning capcity and complexitty
+  * **Theoretically CNN is best** since large learning capcity and complexitty
   * Stationarity of statistics
   * Locality of pixel dependencies  
 
 
 **CNN GPU Implementation**
 
-  * CNN + image datasets = heavy computation required
+  * **Heavy computation required** - Size of CNN network limited by GPU memory avaliabe
   * Highly optomized implementation of 2D convolutions
-  * Size of CNN network limited by GPU memory avaliabe
-  * Solution to spread network over multiple GPUs via parallel processing 
+  * Solution to spread network over multiple GPUs via **parallel processing**
   
 ---
 
-## Machine Learning for object recognition &#x1F499;
+## Object Recognition &#x1F499;
 
 **Labeled image-training datasets**
   
-  1) Small image datasets
-    * Order of tens of thousands of images
-    * Classic example MNIST digit-recognition task with best error rate
-    
-  2) Large image datasets
-    * Order of hundreds of thousands of images
-    * ImageNet or LabelMe
+  * Small image datasets (order of tens of thousands of images). Classic example MNIST digit-recognition task with best error rate  
+  * Large image datasets (order of hundreds of thousands of images). Examples are ImageNet or LabelMe
  
 
-**ImageNet**
+**Large Dataset ImageNet**
 
-  * Dataset over 15 million labeled images
+  * **Dataset over 15 million labeled images**
   * Variable-resolution images (256x256)
   * Training, validation, and testing images
   * Annual competition - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC) 
@@ -69,8 +63,6 @@
 ---
 
 ## NSFW Images  &#x1F499;
-
-**Types of images to be analyzed:**
 
   * Static images
   * Uncontrolled backgrounds
@@ -84,20 +76,20 @@
 ## NSFW Object Recognition: Content-Based Retrival &#x1F499;
 
 
-**1) Find image location with large areas of skin-colored regions:**
+**Find image location with large areas of skin-colored regions**
 
   * Skin regions in an image and color and texture properties 
-  * Input RGB values (skin) with log-opponent representation
+  * **Input RGB values (skin)** with log-opponent representation
   * Intensity of image (texture) smoothered with median filter subtracted with original image
-  * **QBIC search** - operator uses **absraction of an image to search for colored textured regions**
+  * **QBIC search - operator uses absraction of an image to search for colored textured regions**
 
-**2) Find elongated regions:**
+**Find elongated regions**
 
   * Grouped **2D and 3D constraints** on body/skin regions
   * Modelling humans == **cylindrical parts within the skeleton geometry**
   * Imaging model to identify region outlines
 
-**3) Classify regions into possible human limbs:**
+**Classify regions into possible human limbs**
 
   * **Geometric grouping algorithms** - matching a view to a collection of images of an object
   * Make a hypothesis object is present, and an estimate of appearance
@@ -142,19 +134,19 @@
 ---
 
 
-## Error Overfitting &#x1F499;
+## Errors and Overfitting &#x1F499;
 
-**1)Data Augmentation: **
+**Data Augmentation**
 
   * **Label-peserving transfomations**
     * Transformed images do not need to be stored on the GPU disk
-    * Image translation and horizontal reflections
+    * **Image translation and horizontal reflections**
     
   * **RGB channel intensities**
-    * Add a transformation (covariance matrix) to each RGB image pixel
+    * Add a transformation **(covariance matrix) to each RGB image pixel**
     * Object idenity is invariant to changes in intensity/colour of images
   
-**2) Dropout Rates*
+**Dropout Rates**
 
   * ReLu neutrons 
   * Dropout is used for first two fully-connected layers
