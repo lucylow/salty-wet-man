@@ -105,7 +105,11 @@
 * **Model achieves 92.7% top-5 test accuracy on ImageNet**
 * Implemented with Keras and Tensorflow backend in this project
 
-[Insert Image of VGG16 architecture]
+
+<p align="center"><img  src="https://user-images.githubusercontent.com/17570785/50308873-e2eb6e00-049c-11e9-9587-9da6bdec011b.png" width="85%" height="85%"></p>
+<h6 align="center">VGG16</h6>
+
+[Image of VGG16 architecture]
 
 **VGG16 Architecture**
 
