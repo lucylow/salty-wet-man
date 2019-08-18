@@ -14,9 +14,7 @@
 ![alt text](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/salty_wet_man.png)
 
 ---
-
-
-## Classifier &#x1F499;
+## Introduction &#x1F499; 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
 * Identification into two categories:
@@ -26,8 +24,53 @@
   * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
 
 
+## Machine Learning Classifier &#x1F499;
+
+* Machine Learning methods for object recognition  
+  * Labeled image-training datasets 
+  1) Small image datasets
+    * Order of tens of thousands of images
+    * Classic example MNIST digit-recognition task - best error rate
+  2) Large image datasets
+    * Order of hundreds of thousants of images
+    * ImageNet or LabelMe
+* Convolutional Neural Networks (CNN)
+  * theoretically best for large learning capcity and completixty
+  * stationarity of statistics
+  * locality of pixel dependencies
+
+
 ---
 
+## GPU IMplementation &#x1F499;
+
+* CNN + image datasets = heavy computation required
+* current GPUs 
+* higly optomized implementation of 2D convolutions
+* Size of CNN network limited by GPU memory avaliabe
+  * Spread network over multiple GPUs via parallel processing 
+
+---
+
+## VGG16 model &#x1F499;
+* training images, validation images, and testing images
+*
+*
+---
+
+
+## Overfitting &#x1F499;
+
+* Large size of network with 1.2+ million labeled image training examples == overfitting
+* Data augmentation: 
+  * Label-peserving transfomations: Transformed images do not need to be stored on the GPU disk. Image translation and horizontal reflections
+  * RGB channel intensities: Add a transformation (covariance matrix) to each RGB image pixel. Object idenity is invariant to changes in intensity/colour of images.
+* Dropout
+  * ReLu neutrons 
+  * dropout is used fr first two fully-connected layers
+  
+  
+---
 
 ## Technical Installations - requires heavy computation &#x1F499;
 
