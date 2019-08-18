@@ -48,8 +48,8 @@
 
 **Labeled image-training datasets**
   
-  * Small image datasets (order of tens of thousands of images). Classic example MNIST digit-recognition task with best error rate  
-  * Large image datasets (order of hundreds of thousands of images). Examples are ImageNet or LabelMe
+  * Small image datasets (order of tens of thousands of images) - classic MNIST digit-recognition task with best error rate  
+  * Large image datasets (order of hundreds of thousands of images) - examples are ImageNet or LabelMe
  
 
 **Large Dataset ImageNet**
@@ -66,8 +66,7 @@
 
   * Static images
   * Uncontrolled backgrounds
-  * Multiple people
-  * Partial figures
+  * Multiple people and partial figures
   * Different camera angles
   
   
@@ -76,7 +75,7 @@
 ## NSFW Object Recognition: Content-Based Retrival &#x1F499;
 
 
-**Find image location with large areas of skin-colored regions**
+**Image Location with Large Areas of Skin-colored Regions**
 
   * Skin regions in an image and color and texture properties 
   * **Input RGB values (skin)** with log-opponent representation
@@ -85,7 +84,7 @@
 
 [Insert image of QBIC algorithm]
 
-**Find elongated regions**
+**Elongated Regions Grouping**
 
   * Grouped **2D and 3D constraints** on body/skin regions
   * Modelling humans == **cylindrical parts within the skeleton geometry**
@@ -94,7 +93,7 @@
 [Insert image of 2D/3D constraints]
 
 
-**Classify regions into possible human limbs**
+**Classify Regions into Human Limbs**
 
   * **Geometric grouping algorithms** - matching a view to a collection of images of an object
   * Make a hypothesis object is present, and an estimate of appearance
