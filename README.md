@@ -16,6 +16,7 @@
 ---
 ## Introduction &#x1F499; 
 
+* With the **increase of the computational power**, the use of high level techniques to extract the information of images is valuable
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
 * Identification into two categories:
 
@@ -77,17 +78,18 @@
   * Skin region properties - image, color, and texture  
   * **Input RGB values (skin)** with log-opponent representation
   * Intensity of image (texture) smooth-ed with median filter, then subtracted from original image
-  * **QBIC search - absraction of an image to search for colored textured regions**
+  * **Query By Image Content (QBIC)**
+    * Absraction of an image to search for colored textured regions
+    * Uses image decomposition, pattern matching, and clustering algorithms
+    * Find a set of images similar to a query image
 
-[Insert image of QBIC algorithm]
+[Content/Query based image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
 
 **Elongated Regions Grouping**
 
   * Group **2D and 3D constraints** on body/skin regions
   * Model human body == **cylindrical parts within skeleton geometry**
-  * Identify region outlines
-
-[Insert image of 2D/3D constraints]
+  * Identify region outline
 
 
 **Classify Regions into Human Limbs**
