@@ -32,7 +32,7 @@
   
 **Image Datasets**
 
-  * **Theoretically CNN is best** since large learning capcity and complexity
+  * **Theoretically CNN is best** since large learning capacity and complexity
   * Stationarity of statistics
   * Locality of pixel dependencies  
 
