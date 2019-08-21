@@ -16,7 +16,6 @@
 ---
 ## Introduction &#x1F499; 
 
-* With the **increase of the computational power**, the use of high level techniques to extract the information of images is valuable
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
 * Identification into two categories:
 
