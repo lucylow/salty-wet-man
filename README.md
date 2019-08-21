@@ -46,7 +46,7 @@
 **GPU Implementation**
 
   * **Heavy computation required** - Size of CNN network limited by GPU memory avaliabe
-  * Highly optomized implementation of 2D convolutions
+  * Highly optimized implementation of 2D convolutions
   * Solution to spread network over multiple GPUs via **parallel processing**
   
 
