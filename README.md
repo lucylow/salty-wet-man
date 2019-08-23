@@ -191,8 +191,6 @@ Increase the **number of filters to visualize per convolutional layer** from def
 yarn visualize --gpu --filters 18
 ```
 
-![Image retrival](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/waifu.png)
-
 
 Default image used for **internal-activation** and **CAM visualization** is **"nsfw.jpg"**. Switch to another image by using the **"--image waifu-pic.jpeg"** 👀
 
@@ -201,6 +199,7 @@ Default image used for **internal-activation** and **CAM visualization** is **"n
 yarn visualize --image waifu-pic.jpeg
 ```
 
+![Image retrival](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/waifu.png)
 
 ---
 
@@ -212,6 +211,12 @@ yarn visualize --image waifu-pic.jpeg
 * Gabriel Goh. Image Synthesis from Yahoo's open_nsfw. https://open_nsfw.gitlab.io/
 * Client-Side NSFW Classification. https://nsfwjs.com/
 * Margaret M. FleckDavid A. Forsyth Chris Bregler. Finding Naked People. 1996. http://luthuli.cs.uiuc.edu/~daf/papers/naked.pdf
+* PyTorch. https://github.com/ritchieng/the-incredible-pytorch and https://pytorch.org/tutorials/
+* ImageNet training in PyTorch. https://github.com/pytorch/examples/tree/master/imagenet
+* PyTorch Image Models. https://github.com/rwightman/pytorch-image-models
+* Image Captioning PyTorch. https://github.com/ruotianluo/ImageCaptioning.pytorch
+* PyTorch implementation of convolutional neural network visualization techniques.
+https://github.com/utkuozbulak/pytorch-cnn-visualizations
 
 
 
