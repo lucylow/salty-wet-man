@@ -60,7 +60,7 @@
   * Large image datasets (order of hundreds of thousands of images) - ImageNet
  
 
-**ImageNet used for Large Scale Object Recognition**
+**[ImageNet used for Large Scale Object Recognition](www.image-net.org)**
 
   * **Dataset over 15 million labeled images**
   * Variable-resolution images (256x256)
@@ -105,23 +105,23 @@
 ## NSFW Object Recognition: Detection, and Segmentation &#x1F499;
 
 * Object Image Segmentation
-  * Group together pixels
+  * **Group together skin pixels**
   * Normalized cut 
 * Input image each pixel with a category label
-* For every pixel: Check is th pixel a [skin or not-skin] 
-* Training data for this - super expensive - need to find images with every pixel labeled
+* For every pixel: **Check if the pixel [skin or not-skin]**
+* Training data for this super expensive - need to find images with every pixel labeled
 
 ---
 
 ## NSFW Object Recognition: Image Cropping &#x1F499;
-* How would salty-wet-man choose the image crops?
+* **How would salty-wet-man choose the image crops?**
 * Brute force - sliding window approach (bad)
-* Region proposals
+* **Region proposals**
   * Normal computer vision method(not deep learning)
   * Looks for edges, and draw boxes around them 
-* Region detection without proposals
-  * YOLO - You only look once 
-  * SSD - Single shot detector
+* **Region detection without proposals**
+  * **YOLO** - You only look once 
+  * **SSD** - Single shot detector
 
 
 ---
@@ -232,7 +232,7 @@ yarn visualize --image waifu-pic.jpeg
 * Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition . https://arxiv.org/abs/1409.1556
 * Alex Krizhevsky. 2012. ImageNet Classification with Deep Convolutional Networks
 * Yahoo Engineering's Caffe DL library and CaffeOnSpark model. https://yahooeng.tumblr.com/post/151148689421/open-sourcing-a-deep-learning-solution-for
-* CS231n Computer Vision at Stanford University School of Engineering. https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+* CS231n Computer Vision at Stanford University School of Engineering. Fei Fei Lee. https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
 * Gabriel Goh. Image Synthesis from Yahoo's open_nsfw. https://open_nsfw.gitlab.io/
 * Client-Side NSFW Classification. https://nsfwjs.com/
 * Mask R-CNN framework for object instance segmentation. https://arxiv.org/abs/1703.06870
