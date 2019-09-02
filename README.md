@@ -54,11 +54,11 @@
 
 ## Object Recognition &#x1F499;
 
-**Deep Learning**
+**Deep Learning's Impact on Computer Vision**
 
-   ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
+   ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/object%20detection%20-%20impact%20of%20deep%20learnning.png)
 
-**Labeled image-training datasets**
+**Labeled Image-Training Datasets**
   
   * Small image datasets (order of tens of thousands of images) -  MNIST digit-recognition with best error rate  
   * Large image datasets (order of hundreds of thousands of images) - ImageNet
