@@ -66,7 +66,10 @@
   * Variable-resolution images (256x256)
   * Training, validation, and testing images
   * **Benchmark - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC)**
-  
+ 
+**Deep Learning Impact on Object Recognition**
+ ![deep learning impact]()
+ *Image. Impact of deep learning on the field of Computer Vision.*
 ---  
 
 ## NSFW Object Recognition: Content-Based Retrival via Localization &#x1F499;
@@ -98,6 +101,9 @@
   * **Geometric grouping algorithms** - matching view to collection of images of an object
   * Make hypothesis object present, and an estimate of appearance via **future vector from compressed image**
   * Minimum distance classifer to match feature vectors
+  
+  
+![RNN1](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/mask%20r-nn1.png)
 
 
 ---
@@ -111,6 +117,9 @@
 * For every pixel: 
 > Check if the pixel [skin or not-skin]
 * Training data for this super expensive - need to find images with every pixel labeled
+
+
+![RNN2](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/mask%20r-nn2.png)
 
 ---
 
