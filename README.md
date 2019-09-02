@@ -17,7 +17,7 @@
 ## Introduction &#x1F499; 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
-* Identification into two categories:
+* Salty-Wet-Man identifies images into two categories:
 
   * [SFW] positively trained for **neutral images** that are safe for work
   
@@ -65,7 +65,7 @@
   * **Dataset over 15 million labeled images**
   * Variable-resolution images (256x256)
   * Training, validation, and testing images
-  * Annual competition - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC) 
+  * **Benchmark - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC)**
   
 ---  
 
@@ -115,10 +115,11 @@
 
 ## NSFW Object Recognition: Image Cropping &#x1F499;
 * **How would salty-wet-man choose the image crops?**
-* Brute force - sliding window approach (bad)
+* Brute force image cropping - sliding window approach (Bad)
+
 * **Region proposals**
-  * Normal computer vision method(not deep learning)
   * Looks for edges, and draw boxes around them 
+  
 * **Region detection without proposals**
   * **YOLO** - You only look once 
   * **SSD** - Single shot detector
