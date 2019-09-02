@@ -11,7 +11,7 @@
 
 </div>
 
-![alt text](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/salty_wet_man.png)
+  ![PEDO dd](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/salty_wet_man.png)
 
 ---
 ## Introduction &#x1F499; 
