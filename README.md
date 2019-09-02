@@ -69,13 +69,13 @@
   
 ---  
 
-## NSFW Object Recognition: Content-Based Retrival &#x1F499;
+## NSFW Object Recognition: Content-Based Retrival via Localization &#x1F499;
 
 
 **Image Location with Large Areas of Skin-colored Regions**
 
   * Skin region properties - image, color, and texture  
-  * **Input RGB values (skin)** with log-opponent representation
+  * **Input RGB values (skin spatial pixels)** with log-opponent representation
   * Intensity of image (texture) smooth-ed with median filter, then subtracted from original image
   
   * **Query By Image Content (QBIC)**
@@ -98,6 +98,30 @@
   * **Geometric grouping algorithms** - matching view to collection of images of an object
   * Make hypothesis object present, and an estimate of appearance via **future vector from compressed image**
   * Minimum distance classifer to match feature vectors
+
+
+---
+
+## NSFW Object Recognition: Detection, and Segmentation &#x1F499;
+
+* Object Image Segmentation
+  * Group together pixels
+  * Normalized cut 
+* Input image each pixel with a category label
+* For every pixel: Check is th pixel a [skin or not-skin] 
+* Training data for this - super expensive - need to find images with every pixel labeled
+
+---
+
+## NSFW Object Recognition: Image Cropping &#x1F499;
+* How would salty-wet-man choose the image crops?
+* Brute force - sliding window approach (bad)
+* Region proposals
+  * Normal computer vision method(not deep learning)
+  * Looks for edges, and draw boxes around them 
+* Region detection without proposals
+  * YOLO - You only look once 
+  * SSD - Single shot detector
 
 
 ---
@@ -211,6 +235,7 @@ yarn visualize --image waifu-pic.jpeg
 * CS231n Computer Vision at Stanford University School of Engineering. https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
 * Gabriel Goh. Image Synthesis from Yahoo's open_nsfw. https://open_nsfw.gitlab.io/
 * Client-Side NSFW Classification. https://nsfwjs.com/
+* Mask R-CNN framework for object instance segmentation. https://arxiv.org/abs/1703.06870
 * Margaret M. FleckDavid A. Forsyth Chris Bregler. Finding Naked People. 1996. http://luthuli.cs.uiuc.edu/~daf/papers/naked.pdf
 * PyTorch. https://github.com/ritchieng/the-incredible-pytorch and https://pytorch.org/tutorials/
 * ImageNet training in PyTorch. https://github.com/pytorch/examples/tree/master/imagenet
