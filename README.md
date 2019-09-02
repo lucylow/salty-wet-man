@@ -17,7 +17,7 @@
 ## Introduction &#x1F499; 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
-* Salty-Wet-Man identifies images into two categories:
+* **Salty-Wet-Man identifies images into two categories:**
 
   * [SFW] positively trained for **neutral images** that are safe for work
   
@@ -68,8 +68,9 @@
   * **Benchmark - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC)**
  
 **Deep Learning Impact on Object Recognition**
- ![deep learning impact]()
- *Image. Impact of deep learning on the field of Computer Vision.*
+ ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
+
+
 ---  
 
 ## NSFW Object Recognition: Content-Based Retrival via Localization &#x1F499;
@@ -103,7 +104,7 @@
   * Minimum distance classifer to match feature vectors
   
   
-![RNN1](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/mask%20r-nn1.png)
+![RNN1](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN1.png)
 
 
 ---
@@ -119,7 +120,7 @@
 * Training data for this super expensive - need to find images with every pixel labeled
 
 
-![RNN2](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/mask%20r-nn2.png)
+![RNN2](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN2.png)
 
 ---
 
