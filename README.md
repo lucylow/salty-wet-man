@@ -1,6 +1,7 @@
 # Salty Wet Man &#x1F499;
 
 **Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js**
+
 *Warning: This repo contains abstract nudity and may be unsuitable for the workplace*
 
 <div>
