@@ -46,8 +46,6 @@
 
 
 **GPU Implementation**
-. Warning: This post contains abstract depictions of nudity and may be unsuitable for the workplace
-
 
   * **Heavy computation required** - Size of CNN network limited by GPU memory avaliabe
   * Highly optimized implementation of 2D convolutions
@@ -85,11 +83,13 @@
 **Image Location with Large Areas of Skin-colored Regions**
 
   * Skin region properties - image, color, and texture  
+  
   * **Input RGB values (skin spatial pixels)** with log-opponent representation
     * L(x) = 105*logbaseten(x+1+n)
     * I = L(G)
     * Rg = L(R) - L(G)
     * By = L(B) - (L(G) + L(R))/2
+    
   * Intensity of image (texture) smooth-ed with median filter, then subtracted from original image
   
   * **Query By Image Content (QBIC)**
@@ -139,7 +139,9 @@
 ---
 
 ## NSFW Object Recognition: Image Cropping &#x1F499;
+
 * **How would salty-wet-man choose the image crops?**
+
 * Brute force image cropping - sliding window approach (Bad)
 
 * **Region proposals**
