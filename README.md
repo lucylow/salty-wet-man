@@ -108,7 +108,8 @@
   * **Group together skin pixels**
   * Normalized cut 
 * Input image each pixel with a category label
-* For every pixel: **Check if the pixel [skin or not-skin]**
+* For every pixel: 
+> Check if the pixel [skin or not-skin]
 * Training data for this super expensive - need to find images with every pixel labeled
 
 ---
