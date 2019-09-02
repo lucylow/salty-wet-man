@@ -56,7 +56,7 @@
 
 **Deep Learning**
 
-    ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
+   ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
 
 **Labeled image-training datasets**
   
