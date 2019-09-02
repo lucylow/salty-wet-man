@@ -54,6 +54,10 @@
 
 ## Object Recognition &#x1F499;
 
+**Deep Learning**
+
+    ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
+
 **Labeled image-training datasets**
   
   * Small image datasets (order of tens of thousands of images) -  MNIST digit-recognition with best error rate  
@@ -66,9 +70,7 @@
   * Variable-resolution images (256x256)
   * Training, validation, and testing images
   * **Benchmark - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC)**
- 
-**Deep Learning Impact on Object Recognition**
-    ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
+
 
 
 ---  
@@ -88,7 +90,7 @@
     * Find a set of images similar to a query image
 
 
-    ![Image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
+        ![Image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
 
 **Elongated Regions Grouping**
 
