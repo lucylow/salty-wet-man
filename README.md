@@ -2,6 +2,8 @@
 
 **Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js**
 
+*Warning: This repo contains abstract nudity and may be unsuitable for the workplace*
+
 <div>
   
   [![Status](https://img.shields.io/badge/status-work--in--progress-success.svg)]()
@@ -44,6 +46,8 @@
 
 
 **GPU Implementation**
+. Warning: This post contains abstract depictions of nudity and may be unsuitable for the workplace
+
 
   * **Heavy computation required** - Size of CNN network limited by GPU memory avaliabe
   * Highly optimized implementation of 2D convolutions
