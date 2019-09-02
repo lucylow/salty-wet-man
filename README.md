@@ -68,7 +68,7 @@
   * **Benchmark - ImageNet Large-Scale Visual Recognition Challenge (ILSVRC)**
  
 **Deep Learning Impact on Object Recognition**
- ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
+    ![deep learning impact](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/deep%20learning%20object%20detection%20impact.png)
 
 
 ---  
@@ -88,7 +88,7 @@
     * Find a set of images similar to a query image
 
 
-![Image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
+    ![Image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
 
 **Elongated Regions Grouping**
 
@@ -104,7 +104,7 @@
   * Minimum distance classifer to match feature vectors
   
   
-![RNN1](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN1.png)
+    ![RNN1](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN1.png)
 
 
 ---
@@ -120,7 +120,7 @@
 * Training data for this super expensive - need to find images with every pixel labeled
 
 
-![RNN2](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN2.png)
+    ![RNN2](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN2.png)
 
 ---
 
@@ -147,7 +147,7 @@
 
 <p align="center"><img  src="https://user-images.githubusercontent.com/17570785/50308873-e2eb6e00-049c-11e9-9587-9da6bdec011b.png" ></p>
 
-[Image of VGG16 architecture](https://github.com/lucylow/PlotNeuralNet/blob/master/examples/VGG16/vgg16.pdf)
+   [Image of VGG16 architecture](https://github.com/lucylow/PlotNeuralNet/blob/master/examples/VGG16/vgg16.pdf)
 
 **VGG16 Architecture**
 
@@ -170,7 +170,7 @@
 
 > keras.applications.vgg16.VGG16(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
 
-[Full Keras VGG Code:](https://keras.io/applications/#extract-features-with-vgg16)
+  [Full Keras VGG Code:](https://keras.io/applications/#extract-features-with-vgg16)
 
 
 ---
