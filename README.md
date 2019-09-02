@@ -1,7 +1,6 @@
 # Salty Wet Man &#x1F499;
 
 **Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js**
-
 *Warning: This repo contains abstract nudity and may be unsuitable for the workplace*
 
 <div>
@@ -86,6 +85,10 @@
 
   * Skin region properties - image, color, and texture  
   * **Input RGB values (skin spatial pixels)** with log-opponent representation
+    * L(x) = 105*logbaseten(x+1+n)
+    * I = L(G)
+    * Rg = L(R) - L(G)
+    * By = L(B) - (L(G) + L(R))/2
   * Intensity of image (texture) smooth-ed with median filter, then subtracted from original image
   
   * **Query By Image Content (QBIC)**
@@ -120,9 +123,13 @@
 * Object Image Segmentation
   * **Group together skin pixels**
   * Normalized cut 
+  
 * Input image each pixel with a category label
-* For every pixel: 
-> Check if the pixel [skin or not-skin]
+  > For every pixel: 
+  >   Check if the pixel [skin or not-skin]
+
+* If atleast 30% of the image area skin, the image will be identified as passing the skin filter 
+
 * Training data for this super expensive - need to find images with every pixel labeled
 
 
@@ -253,6 +260,7 @@ yarn visualize --image waifu-pic.jpeg
 * CS231n Computer Vision at Stanford University School of Engineering. Fei Fei Lee. https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
 * Gabriel Goh. Image Synthesis from Yahoo's open_nsfw. https://open_nsfw.gitlab.io/
 * Client-Side NSFW Classification. https://nsfwjs.com/
+* Ring-Filter image processing algorithm for Order Statistics. http://mfleck.cs.illinois.edu/order-statistics.html
 * Mask R-CNN framework for object instance segmentation. https://arxiv.org/abs/1703.06870
 * Margaret M. FleckDavid A. Forsyth Chris Bregler. Finding Naked People. 1996. http://luthuli.cs.uiuc.edu/~daf/papers/naked.pdf
 * PyTorch. https://github.com/ritchieng/the-incredible-pytorch and https://pytorch.org/tutorials/
