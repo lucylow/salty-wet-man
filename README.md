@@ -2,7 +2,7 @@
 
 **Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
 
-*Warning: This repo contains abstract nudity and may be unsuitable for the workplace*
+*Warning -  repo contains abstract nudity and may be unsuitable for the workplace*
 
 <div>
   
