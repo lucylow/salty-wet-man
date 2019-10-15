@@ -272,6 +272,8 @@ yarn visualize --image waifu-pic.jpeg
 * Image Captioning PyTorch. https://github.com/ruotianluo/ImageCaptioning.pytorch
 * PyTorch implementation of convolutional neural network visualization techniques.
 https://github.com/utkuozbulak/pytorch-cnn-visualizations
+* Detectron2 from FAIR for object detection and segmentation.
+https://github.com/facebookresearch/detectron2
 
 
 
