@@ -1,6 +1,6 @@
 # Salty Wet Man &#x1F499;
 
-**Not Suitable for Work (NSFW) image classification using Keras and Tensorflow.js**
+**Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
 
 *Warning: This repo contains abstract nudity and may be unsuitable for the workplace*
 
@@ -266,14 +266,16 @@ yarn visualize --image waifu-pic.jpeg
 * Ring-Filter image processing algorithm for Order Statistics. http://mfleck.cs.illinois.edu/order-statistics.html
 * Mask R-CNN framework for object instance segmentation. https://arxiv.org/abs/1703.06870
 * Margaret M. FleckDavid A. Forsyth Chris Bregler. Finding Naked People. 1996. http://luthuli.cs.uiuc.edu/~daf/papers/naked.pdf
+
 * PyTorch. https://github.com/ritchieng/the-incredible-pytorch and https://pytorch.org/tutorials/
 * ImageNet training in PyTorch. https://github.com/pytorch/examples/tree/master/imagenet
 * PyTorch Image Models. https://github.com/rwightman/pytorch-image-models
 * Image Captioning PyTorch. https://github.com/ruotianluo/ImageCaptioning.pytorch
 * PyTorch implementation of convolutional neural network visualization techniques.
 https://github.com/utkuozbulak/pytorch-cnn-visualizations
-* Detectron2 from FAIR for object detection and segmentation.
+* FAIR Detectron2 for object detection and segmentation using PyTorch.
 https://github.com/facebookresearch/detectron2
+* FAIR. "Faster R-CNN and Mask R-CNN in PyTorch 1.0". Creating detection and segmentation models using PyTorch .https://github.com/facebookresearch/maskrcnn-benchmark/
 
 
 
