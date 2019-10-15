@@ -126,8 +126,7 @@
   * Normalized cut 
   
 * Input image each pixel with a category label
-  > For every pixel: 
-  >   Check if the pixel [skin or not-skin]
+  * For every pixel - Check if the pixel [skin or not-skin]
 
 * If atleast 30% of the image area skin, the image will be identified as passing the skin filter 
 
