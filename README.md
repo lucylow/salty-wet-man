@@ -279,12 +279,5 @@ https://github.com/facebookresearch/detectron2
 
 
 
----
-
-
-**┬┴┬┴┤ʕ•ᴥ├┬┴┬┴**
-
-
-
 
 
