@@ -148,13 +148,13 @@
   * Looks for edges, and draw boxes around them 
   
 * **Region detection without proposals**
-  * **YOLO** - You only look once 
-  * **SSD** - Single shot detector
+  * **YOLO** - [You Only Look Once Algorithm. Unified, Real-Time Object Detection](https://pjreddie.com/media/files/papers/yolo.pdf)
+  * **SSD** - [Single Shot Detector](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/single-shot-detectors.html)
 
 
 ---
 
-## Neural Network Classifier - VGG16 model &#x1F499;
+## Neural Network Classifier - VGG16 Model &#x1F499;
 
 * VGG16 is a CNN for large-scale image recognition 
 * **Model achieves 92.7% top-5 test accuracy on ImageNet**
@@ -173,7 +173,7 @@
 * Max pooling layers
 * Hidden layers have ReLu Retification
 * Final layer is soft-max layer
-* **Total 16 layers**
+* **Total 16 Layers**
 
 **VGG16 Disadvantages**
 
@@ -186,7 +186,7 @@
 
 > keras.applications.vgg16.VGG16(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
 
-  [Full Keras VGG Code:](https://keras.io/applications/#extract-features-with-vgg16)
+  [Full Keras VGG Code](https://keras.io/applications/#extract-features-with-vgg16)
 
 
 ---
@@ -196,9 +196,10 @@
 
 **Data Augmentation**
 
-  * **Label-peserving transfomations**
+  * **Label peserving transfomations**
     * Transformed images do not need to be stored on GPU disk to save space
     * **Image translation and horizontal reflections**
+    * [Image captioning using PyTorch](https://github.com/ruotianluo/ImageCaptioning.pytorch)
     
   * **RGB channel intensities**
     * Add transformation **(covariance matrix) to each RGB image pixel**
@@ -207,7 +208,7 @@
 **Dropout Rates**
 
   * ReLu neutrons 
-  * Dropout is used for first two fully-connected (FC) layers (4096 and 4096)
+  * Dropout is used for **first two fully-connected (FC) layers** (4096 and 4096)
   
 
 ---
@@ -266,16 +267,15 @@ yarn visualize --image waifu-pic.jpeg
 * Ring-Filter image processing algorithm for Order Statistics. http://mfleck.cs.illinois.edu/order-statistics.html
 * Mask R-CNN framework for object instance segmentation. https://arxiv.org/abs/1703.06870
 * Margaret M. FleckDavid A. Forsyth Chris Bregler. Finding Naked People. 1996. http://luthuli.cs.uiuc.edu/~daf/papers/naked.pdf
-
-* PyTorch. https://github.com/ritchieng/the-incredible-pytorch and https://pytorch.org/tutorials/
+* PyTorch tutorial review. https://github.com/ritchieng/the-incredible-pytorch and https://pytorch.org/tutorials/
 * ImageNet training in PyTorch. https://github.com/pytorch/examples/tree/master/imagenet
 * PyTorch Image Models. https://github.com/rwightman/pytorch-image-models
 * Image Captioning PyTorch. https://github.com/ruotianluo/ImageCaptioning.pytorch
-* PyTorch implementation of convolutional neural network visualization techniques.
+* PyTorch Visualizatoins. Implementation of convolutional neural network.
 https://github.com/utkuozbulak/pytorch-cnn-visualizations
-* FAIR Detectron2 for object detection and segmentation using PyTorch.
+* Facebook AI Research. "Detectron2". Object detection and segmentation using PyTorch.
 https://github.com/facebookresearch/detectron2
-* FAIR. "Faster R-CNN and Mask R-CNN in PyTorch 1.0". Creating detection and segmentation models using PyTorch .https://github.com/facebookresearch/maskrcnn-benchmark/
+* Facebook AI Research.  "Faster R-CNN and Mask R-CNN in PyTorch 1.0". Creating detection and segmentation models using PyTorch .https://github.com/facebookresearch/maskrcnn-benchmark/
 
 
 
