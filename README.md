@@ -22,11 +22,11 @@
 * [Convolutional Neural Networks](#Convolutional_Neural_Networks)
 * [Object Recognition](#Object_Recognition_) 
 * [NSFW Object Recognition: Content-Based Retrival via Localization](#NSFW_Object_Recognition_Content-Based_Retrival_via_Localization_) 
-* [NSFW_Object_Recognition_Image_Cropping](#NSFW_Object_Recognition_Image_Cropping_) 
-* [Neural_Network_Classifier_VGG16_Model](#Neural_Network_Classifier_VGG16_Model_) 
-* [Neural_Network_Errors_and_Overfitting](#Neural_Network_Errors_and_Overfitting_) 
-* [Technical_Installations](#Technical_Installations_) 
-* [Technical_Visualizations](#Technical_Visualizations_) 
+* [NSFW Object Recognition Image Cropping](#NSFW_Object_Recognition_Image_Cropping_) 
+* [Neural Network Classifier VGG16 Model](#Neural_Network_Classifier_VGG16_Model_) 
+* [Neural Network Errors and Overfitting](#Neural_Network_Errors_and_Overfitting_) 
+* [Technical Installations](#Technical_Installations_) 
+* [Technical Visualizations](#Technical_Visualizations_) 
 * [References](#References_) 
 
 ---
