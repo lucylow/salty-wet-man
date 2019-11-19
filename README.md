@@ -14,6 +14,21 @@
 </div>
 
   ![PEDO dd](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/salty_wet_man.png)
+---
+
+## Table_of_Contents
+
+* [Introduction](#Introduction)
+* [Convolutional Neural Networks (CNN)](#Convolutional Neural Networks (CNN))
+* [Object Recognition](#Object Recognition)
+* [NSFW Object Recognition: Content-Based Retrival via Localization](#NSFW Object Recognition: Content-Based Retrival via Localization)
+* [NSFW Object Recognition: Detection, and Segmentation](#NSFW Object Recognition: Detection, and Segmentation) 
+* [NSFW Object Recognition: Image Cropping](#NSFW Object Recognition: Image Cropping)
+* [Neural Network Classifier - VGG16 Model](#Neural Network Classifier - VGG16 Model)
+* [Neural Network Errors and Overfitting](#Neural Network Errors and Overfitting)
+* [Technical Installations - requires heavy computation](#Technical Installations - requires heavy computation) 
+* [Technical Visualizations](#Technical Visualizations) 
+* [References](#References) 
 
 ---
 ## Introduction &#x1F499; 
