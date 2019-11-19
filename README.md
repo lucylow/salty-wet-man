@@ -16,19 +16,19 @@
   ![PEDO dd](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/salty_wet_man.png)
 ---
 
-## Table_of_Contents
+## Table_of_Contents &#x1F499; 
 
-* [Introduction](#Introduction)
-* [Convolutional Neural Networks (CNN)](#Convolutional Neural Networks (CNN))
+* [Introduction](#Introduction_)
+* [Convolutional Neural Networks (CNN)](#Convolutional Neural Networks (CNN)_)
 * [Object Recognition](#Object Recognition)
-* [NSFW Object Recognition: Content-Based Retrival via Localization](#NSFW Object Recognition: Content-Based Retrival via Localization)
-* [NSFW Object Recognition: Detection, and Segmentation](#NSFW Object Recognition: Detection, and Segmentation) 
-* [NSFW Object Recognition: Image Cropping](#NSFW Object Recognition: Image Cropping)
-* [Neural Network Classifier - VGG16 Model](#Neural Network Classifier - VGG16 Model)
-* [Neural Network Errors and Overfitting](#Neural Network Errors and Overfitting)
-* [Technical Installations - requires heavy computation](#Technical Installations - requires heavy computation) 
-* [Technical Visualizations](#Technical Visualizations) 
-* [References](#References) 
+* [NSFW Object Recognition: Content-Based Retrival via Localization](#NSFW Object Recognition: Content-Based Retrival via Localization_)
+* [NSFW Object Recognition: Detection, and Segmentation](#NSFW Object Recognition: Detection, and Segmentation_) 
+* [NSFW Object Recognition: Image Cropping](#NSFW Object Recognition: Image Cropping_)
+* [Neural Network Classifier - VGG16 Model](#Neural Network Classifier - VGG16 Model_)
+* [Neural Network Errors and Overfitting](#Neural Network Errors and Overfitting_)
+* [Technical Installations - requires heavy computation](#Technical Installations - requires heavy computation_) 
+* [Technical Visualizations](#Technical Visualizations_) 
+* [References](#References_) 
 
 ---
 ## Introduction &#x1F499; 
