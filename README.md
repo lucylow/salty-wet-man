@@ -19,10 +19,10 @@
 ## Table_of_Contents &#x1F499; 
 
 * [Introduction](#Introduction_)
-* [Convolutional_Neural_Networks](#Convolutional_Neural_Networks_) 
+* [Convolutional_Neural_Networks](#Convolutional_Neural_Networks)
 * [Object_Recognition](#Object_Recognition_) 
 * [NSFW_Object_Recognition_Content-Based_Retrival_via_Localization](#NSFW_Object_Recognition_Content-Based_Retrival_via_Localization_) 
-* [NSFW_Object_Recognition:_Image_Cropping](#NSFW_Object_Recognition:_Image_Cropping_) 
+* [NSFW_Object_Recognition_Image_Cropping](#NSFW_Object_Recognition_Image_Cropping_) 
 * [Neural_Network_Classifier_VGG16_Model](#Neural_Network_Classifier_VGG16_Model_) 
 * [Neural_Network_Errors_and_Overfitting](#Neural_Network_Errors_and_Overfitting_) 
 * [Technical_Installations](#Technical_Installations_) 
@@ -151,7 +151,7 @@
 
 ---
 
-## NSFW_Object_Recognition:_Image_Cropping &#x1F499;
+## NSFW_Object_Recognition_Image_Cropping &#x1F499;
 
 * **How would salty-wet-man choose the image crops?**
 
