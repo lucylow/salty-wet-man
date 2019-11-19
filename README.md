@@ -3,6 +3,8 @@
 **Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
 
 *Warning -  repo contains abstract nudity and may be unsuitable for the workplace*
+-------
+
 
 <div>
   
@@ -14,7 +16,9 @@
 </div>
 
   ![PEDO dd](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/salty_wet_man.png)
----
+  
+  
+-------------
 
 ## Table_of_Contents &#x1F499; 
 
