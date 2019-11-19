@@ -44,7 +44,7 @@
 ---
 
 
-## Convolutional Neural Networks (CNN) &#x1F499;
+## Convolutional_Neural_Networks &#x1F499;
   
 **Image Datasets**
 
@@ -69,7 +69,7 @@
 
 ---
 
-## Object Recognition &#x1F499;
+## Object_Recognition &#x1F499;
 
 **Deep Learning's Impact on Computer Vision**
 
@@ -92,7 +92,7 @@
 
 ---  
 
-## NSFW Object Recognition: Content-Based Retrival via Localization &#x1F499;
+## NSFW_Object_Recognition:_Content-Based_Retrival_via_Localization &#x1F499;
 
 
 **Image Location with Large Areas of Skin-colored Regions**
@@ -134,7 +134,7 @@
 
 ---
 
-## NSFW Object Recognition: Detection, and Segmentation &#x1F499;
+## NSFW_Object_Recognition:_Detection,_and_Segmentation &#x1F499;
 
 * Object Image Segmentation
   * **Group together skin pixels**
@@ -152,7 +152,7 @@
 
 ---
 
-## NSFW Object Recognition: Image Cropping &#x1F499;
+## NSFW_Object_Recognition:_Image_Cropping &#x1F499;
 
 * **How would salty-wet-man choose the image crops?**
 
@@ -168,7 +168,7 @@
 
 ---
 
-## Neural Network Classifier - VGG16 Model &#x1F499;
+## Neural_Network_Classifier_VGG16_Model &#x1F499;
 
 * VGG16 is a CNN for large-scale image recognition 
 * **Model achieves 92.7% top-5 test accuracy on ImageNet**
@@ -206,7 +206,7 @@
 ---
 
 
-## Neural Network Errors and Overfitting &#x1F499;
+## Neural_Network_Errors_and_Overfitting &#x1F499;
 
 **Data Augmentation**
 
@@ -227,7 +227,8 @@
 
 ---
 
-## Technical Installations - requires heavy computation &#x1F499;
+## Technical_Installations &#x1F499;
+Requires heavy computation
 
 1. Install Python dependencies and packages (**Keras, TensorFlow, and TensorFlow.js**) - best to run from [virtualenv](https://virtualenv.pypa.io/en/latest/)
    
@@ -243,7 +244,7 @@
 ---
 
 
-## Technical Visualizations &#x1F499;
+## Technical_Visualizations &#x1F499;
 
 
 ```sh
