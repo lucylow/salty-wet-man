@@ -19,9 +19,8 @@
 ## Table_of_Contents &#x1F499; 
 
 * [Introduction](#Introduction_)
-* [Convolutional_Neural_Networks](#Convolutional_Neural_Networks) 
+* [Convolutional_Neural_Networks](#Convolutional_Neural_Networks_) 
 * [Object_Recognition](#Object_Recognition_) 
-* [NSFW_Object_Recognition_Content-Based_Retrival_via_Localization](#NSFW_Object_Recognition_Content-Based_Retrival_via_Localization_) 
 * [NSFW_Object_Recognition_Content-Based_Retrival_via_Localization](#NSFW_Object_Recognition_Content-Based_Retrival_via_Localization_) 
 * [NSFW_Object_Recognition:_Image_Cropping](#NSFW_Object_Recognition:_Image_Cropping_) 
 * [Neural_Network_Classifier_VGG16_Model](#Neural_Network_Classifier_VGG16_Model_) 
