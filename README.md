@@ -34,7 +34,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 ## Introduction &#x1F499; 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
-* **Salty-Wet-Man identifies images into two groups such that it is abinary classification problem:**
+* **Salty-Wet-Man identifies images solving a binary classification problem:**
 
   * [SFW] positively trained for **neutral images** that are safe for work
   
