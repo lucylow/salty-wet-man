@@ -267,8 +267,6 @@ Default image used for **internal-activation** and **CAM visualization** is **"n
 yarn visualize --image waifu-pic.jpeg
 ```
 
-![Image retrival](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/waifu.png)
-
 ---
 
 ## References &#x1F499;
