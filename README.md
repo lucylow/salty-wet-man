@@ -1,4 +1,4 @@
-# Salty Wet Man &#x1F499;
+# Salty Wet Man 
 
 **Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
 Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
@@ -17,7 +17,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
   
 -------------
 
-## Table_of_Contents &#x1F499; 
+## Table_of_Contents 
 
 * [Introduction](#Introduction_)
 * [Convolutional Neural Networks](#Convolutional_Neural_Networks)
@@ -31,7 +31,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 * [References](#References_) 
 
 ---
-## Introduction &#x1F499; 
+## Introduction 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
 * **Salty-Wet-Man identifies images solving a binary classification problem:**
@@ -44,7 +44,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 ---
 
 
-## Convolutional_Neural_Networks &#x1F499;
+## Convolutional_Neural_Networks 
   
 **Image Datasets**
 
@@ -69,7 +69,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 ---
 
-## Object_Recognition &#x1F499;
+## Object_Recognition 
 
 **Deep Learning's Impact on Computer Vision**
 
@@ -92,7 +92,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 ---  
 
-## NSFW_Object_Recognition:_Content-Based_Retrival_via_Localization &#x1F499;
+## NSFW_Object_Recognition:_Content-Based_Retrival_via_Localization 
 
 
 **Image Location with Large Areas of Skin-colored Regions**
@@ -134,7 +134,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 ---
 
-## NSFW_Object_Recognition:_Detection,_and_Segmentation &#x1F499;
+## NSFW_Object_Recognition:_Detection,_and_Segmentation 
 
 * Object Image Segmentation
   * **Group together skin pixels**
@@ -152,8 +152,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 ---
 
-## NSFW_Object_Recognition_Image_Cropping &#x1F499;
-
+## NSFW_Object_Recognition_Image_Cropping 
 * **How would salty-wet-man choose the image crops?**
 
 * Brute force image cropping - sliding window approach (Bad)
@@ -168,7 +167,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 ---
 
-## Neural_Network_Classifier_VGG16_Model &#x1F499;
+## Neural_Network_Classifier_VGG16_Model
 
 * VGG16 is a CNN for large-scale image recognition 
 * **Model achieves 92.7% top-5 test accuracy on ImageNet**
@@ -206,7 +205,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 ---
 
 
-## Neural_Network_Errors_and_Overfitting &#x1F499;
+## Neural_Network_Errors_and_Overfitting 
 
 **Data Augmentation**
 
@@ -227,7 +226,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 ---
 
-## Technical_Installations &#x1F499;
+## Technical_Installations 
 Requires heavy computation
 
 1. Install Python dependencies and packages (**Keras, TensorFlow, and TensorFlow.js**) - best to run from [virtualenv](https://virtualenv.pypa.io/en/latest/)
@@ -244,7 +243,7 @@ Requires heavy computation
 ---
 
 
-## Technical_Visualizations &#x1F499;
+## Technical_Visualizations 
 
 
 ```sh
@@ -269,7 +268,7 @@ yarn visualize --image waifu-pic.jpeg
 
 ---
 
-## References &#x1F499;
+## References 
 
 * Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition . https://arxiv.org/abs/1409.1556
 * Alex Krizhevsky. 2012. ImageNet Classification with Deep Convolutional Networks
