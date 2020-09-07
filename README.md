@@ -288,6 +288,7 @@ https://github.com/utkuozbulak/pytorch-cnn-visualizations
 * Facebook AI Research. "Detectron2". Object detection and segmentation using PyTorch.
 https://github.com/facebookresearch/detectron2
 * Facebook AI Research.  "Faster R-CNN and Mask R-CNN in PyTorch 1.0". Creating detection and segmentation models using PyTorch .https://github.com/facebookresearch/maskrcnn-benchmark/
+* Porn is misogynistic and bad for you! The Dick Detox Challenge: 90 Days To A Porn Free Life https://edwardalatimorejr.podia.com/dick-detox-challenge?ck_subscriber_id=339632610
 
 
 
