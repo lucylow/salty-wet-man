@@ -12,9 +12,6 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 </div>
 
-![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/SWM.png)  
-
-  *Salty Wet Man. Why do I get messages like this sent to my workplace email?*
 -------------
 
 ## Table_of_Contents 
@@ -39,6 +36,12 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
   * [SFW] positively trained for **neutral images** that are safe for work
   
   * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
+
+* Motivation for Salty Wet Man 
+
+![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/SWM.png)  
+
+*Salty Wet Man. Why do I get messages like this sent to my workplace email?*
 
 
 ---
