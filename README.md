@@ -12,9 +12,8 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 </div>
 
-  ![PEDO dd](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/salty_wet_man.png)
-  
-  
+[](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/SWM.png)  
+*Salty Wet Man. Why do I get messages like this sent to my workplace email?  *
 -------------
 
 ## Table_of_Contents 
