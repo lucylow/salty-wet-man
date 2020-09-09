@@ -13,7 +13,8 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 </div>
 
 [](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/SWM.png)  
-*Salty Wet Man. Why do I get messages like this sent to my workplace email?  *
+
+  *Salty Wet Man. Why do I get messages like this sent to my workplace email?*
 -------------
 
 ## Table_of_Contents 
