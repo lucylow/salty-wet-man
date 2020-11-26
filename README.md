@@ -36,6 +36,10 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
   * [SFW] positively trained for **neutral images** that are safe for work
   
   * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
+  
+* Professional Development of Women
+![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/pd1.png)  
+
 
 * Motivation for Salty Wet Man 
 
