@@ -45,7 +45,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 ![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/SWM.png)  
 
-*Salty Wet Man. Why do I get rape and death threats emailed to me from coworkers? CONSTABLE M1KE ARE YOU READING THIS :( *
+*Salty Wet Man. Why do I get rape and death threats emailed to me from coworkers? CONSTABLE M1KE ARE YOU READING THIS :(*
 
 
 ---
