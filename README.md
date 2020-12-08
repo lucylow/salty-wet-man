@@ -12,6 +12,9 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 </div>
 
+![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
+
+
 -------------
 
 ## Table_of_Contents 
@@ -28,7 +31,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 * [References](#References_) 
 
 ---
-## Introduction 
+## Motivation 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
 * **Salty-Wet-Man identifies images solving a binary classification problem:**
@@ -41,11 +44,6 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 ![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/pd1.png)  
 
 
-* Motivation for Salty Wet Man 
-
-![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/SWM.png)  
-
-*Salty Wet Man. Why do I get rape and death threats emailed to me from coworkers? CONSTABLE M1KE ARE YOU READING THIS :(*
 
 
 ---
