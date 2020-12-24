@@ -1,5 +1,4 @@
-# Salty Wet Man 
-
+--------------
 
 ![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/lols.png)
 
