@@ -14,8 +14,6 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 </div>
 
-![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
-
 
 -------------
 
@@ -42,9 +40,8 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
   
   * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
   
-* Professional Development of Women
-![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/pd1.png)  
 
+![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
 
 
 
