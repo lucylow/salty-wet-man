@@ -1,7 +1,7 @@
 # Salty Wet Man
 
 **Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
-Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
+*Warning. Repo contains abstract nudity and may be unsuitable for the workplace.*
 
 <div>
   
@@ -13,7 +13,7 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 </div>
 
 ![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
-*The type of emails I get from coworkers.*
+*The creepy ass emails I get from coworkers with no context.*
 
 
 -------------
