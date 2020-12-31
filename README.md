@@ -1,3 +1,4 @@
+# Salty Wet Man
 --------------
 
 **Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
@@ -12,12 +13,14 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
 </div>
 
-
+![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
+*The type of emails I get from coworkers.*
 -------------
 
 ## Table_of_Contents 
 
-* [Introduction](#Introduction_)
+* [Half the Sky Motivation](#Half_the_sky_Motivation)
+* [Technical Solution](#Technical_solution)
 * [Convolutional Neural Networks](#Convolutional_Neural_Networks)
 * [Object Recognition](#Object_Recognition_) 
 * [NSFW Object Recognition: Content-Based Retrival via Localization](#NSFW_Object_Recognition_Content-Based_Retrival_via_Localization_) 
@@ -29,7 +32,28 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 * [References](#References_) 
 
 ---
-## Motivation 
+## Half the Sky Motivation 
+
+* Ending online gender-based violence
+  * Unwanted sexual behaviour while in public, unwanted sexual behaviour online, unwanted sexual behaviour in the workplace, sexual assault, and physical assault:
+  * One in three (32%) women experienced unwanted sexual behaviour in public
+  * One in five (18%) women experienced online harassment
+  * Three in ten (29%) women were targeted by inappropriate sexual behaviour in a work-related environment
+  * Four in ten (39%) of women have been physically or sexually assaulted since the age of 15
+
+* Hyper-masculinity: the notion that masculinity is determined by strength and power. It promotes violence, entitlement, devalues feeling, and emotions. 
+
+* #Metoo
+  * In 2006, Tarana Burke founded the Me Too movement and began using the phrase "Me Too" - a social movement against sexual abuse and sexual harassment where people publicize allegations of sex crimes committed by powerful prominent men.
+  * Helps to show survivors of sexual abuse that they are not alone. Improve awareness about sexual violence, showing just how widespread sexual harassment and assault really are.
+  
+* #Timesup
+  * Time's Up is a social movement against sexual harassment, founded on January 1, 2018, by Hollywood celebrities in response to the Weinstein effect and #MeToo. As of December 2018, it has raised more than $22 million for its legal defense fund, and gathered nearly 800 volunteer lawyers.  
+  * Focused on workplace equity and creating equal economic opportunities for women and people of color
+  * **“Time’s Up was founded on the premise that everyone, every human being, deserves a right to earn a living, to take care of themselves, to take care of their families, free of the impediments of harassment and sexual assault and discrimination.”**
+
+---
+## Technical Solution
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
 * **Salty-Wet-Man identifies images solving a binary classification problem:**
@@ -38,10 +62,6 @@ Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
   
   * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
   
-
-![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
-
-
 
 ---
 
