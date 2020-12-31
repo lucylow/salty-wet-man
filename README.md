@@ -1,7 +1,5 @@
 --------------
 
-![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/fssdfs.png)
-
 **Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
 Warning. Repo contains abstract nudity and may be unsuitable for the workplace.
 
