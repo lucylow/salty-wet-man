@@ -35,7 +35,7 @@
 ---
 ## Half the Sky Motivation 
 
-* Ending online gender-based violence
+* Ending gender-based violence
   * Unwanted sexual behaviour while in public, unwanted sexual behaviour online, unwanted sexual behaviour in the workplace, sexual assault, and physical assault:
   * One in three (32%) women experienced unwanted sexual behaviour in public
   * One in five (18%) women experienced online harassment
