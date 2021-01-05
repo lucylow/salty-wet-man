@@ -1,6 +1,9 @@
 # Salty Wet Man
 
-**Not Suitable for Work (NSFW) image classification using Keras, Tensorflow.js, and PyTorch.**
+Inspired by the #Metoo and #Timesup movements in the fight for gender equity in the workplace to create safe economic opportunities for women. Salty Wet Man is a Not Suitable for Work image classification trained on the ImageNet dataset. Defining NSFW material is subjective and the task of identifying these images is non-trivial. Salty-Wet-Man identifies images into two categories: [SFW] positively trained for neutral images that are safe for work [NSFW] negatively trained for pornographic images involving sexually explicit images.
+
+CNN for large-scale image recognition model implementation achieves object recognition functionalities like Content-Based Retrival via Localization, Image Detection, and Segmentation, and Image Region Proposal Cropping.
+
 *Warning. Repo contains abstract nudity and may be unsuitable for the workplace.*
 
 <div>
@@ -294,7 +297,9 @@ yarn visualize --image waifu-pic.jpeg
 
 ## References 
 
-* Remember to clear your browser history. https://duckduckgo.com/?q=how+to+clear+your+browser+history&t=h_&ia=web
+* Lean In. Women in the Workplace 2020 https://wiw-report.s3.amazonaws.com/Women_in_the_Workplace_2020.pdf
+* Women and the workplace – How employers can advance equality and diversity – Report from the Symposium on Women and the Workplace
+ https://www.canada.ca/en/employment-social-development/corporate/reports/women-symposium.html
 * Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition . https://arxiv.org/abs/1409.1556
 * Alex Krizhevsky. 2012. ImageNet Classification with Deep Convolutional Networks
 * Yahoo Engineering's Caffe DL library and CaffeOnSpark model. https://yahooeng.tumblr.com/post/151148689421/open-sourcing-a-deep-learning-solution-for
