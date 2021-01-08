@@ -25,9 +25,11 @@
         Classifier
         <ul>
           <li>
-        Defining NSFW material is subjective and the task of identifying these images is non-trivial.
+        Inspired by the #Metoo and #Timesup movements in the fight for gender equity in the workplace to create safe economic opportunities for women. Salty Wet Man is a Not Suitable for Work image classification trained on the ImageNet dataset. Defining NSFW material is subjective and the task of identifying these images is non-trivial. Salty-Wet-Man identifies images into two categories: [SFW] positively trained for neutral images that are safe for work [NSFW] negatively trained for pornographic images involving sexually explicit images.
+            
+        
         <li>
-          Identification into two categories.
+          Defining NSFW material is subjective and the task of identifying these images is non-trivial. Identification into two categories.
           </li>  
             <li>
               [SFW] positively trained for neutral images that are safe for work.
@@ -83,9 +85,10 @@
       <div>
         <span>What to visualize:</span>
         <select id="viz-type">
-          <option value="activation">Filter activation</option>
-          <option value="filters">Maximally-activating input images</option>
-          <option value="cam">Class activation map (CAM)</option>
+          <option value="activation">Content-Based Retrival via Localization</option>
+          <option value="filters">Image Detection</option>
+          <option value="cam">Image Segmentation</option>
+          <option value="filters">Input RGB values (skin spatial pixels) with log-opponent representation</option>
         </select>
       </div>
 
