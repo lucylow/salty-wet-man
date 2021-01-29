@@ -1,6 +1,6 @@
 # Salty Wet Man
 
-The goal of Salty Wet Man is to flag inappropriate online content to make the internet a safe and inclusive space for children. 
+The goal of Salty Wet Man is to flag inappropriate online content to make the internet a safe and inclusive space for everyone. 
 
 *Warning. Repo contains abstract nudity and may be unsuitable for the workplace.*
 
