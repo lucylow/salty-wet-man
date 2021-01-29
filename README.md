@@ -1,6 +1,6 @@
 # Salty Wet Man
 
-The goal of Salty Wet Man is to flag inappropriate online content to make the internet a safe and inclusive space for children. It is a Not Suitable for Work image classification trained on the ImageNet dataset. Defining NSFW material is subjective and the task of identifying these images is non-trivial. Salty-Wet-Man identifies images into two categories: [SFW] positively trained for neutral images that are safe for work [NSFW] negatively trained for pornographic images involving sexually explicit images. CNN for large-scale image recognition model implementation achieves object recognition functionalities like Content-Based Retrival via Localization, Image Detection, and Segmentation, and Image Region Proposal Cropping.
+The goal of Salty Wet Man is to flag inappropriate online content to make the internet a safe and inclusive space for children. 
 
 *Warning. Repo contains abstract nudity and may be unsuitable for the workplace.*
 
@@ -39,16 +39,16 @@ Chess game. A chessboard features 16 playing pieces with 6 types where each piec
 
 Many people will say the King or Queen because they are the highest rank. However I believe the most powerful are the nine Pawns (lowest rank). This is because through pawn promotion gameplay, the nine Pawns have the power to get promoted to become Queens, Rooks, Bishops, or Knights. Therefore we need to nurture and protect them as they are seeds for the future.
 
-![https://github.com/lucylow/salty-wet-man/blob/master/readme-images/queensgambit.jpg]
+![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/queensgambit.jpg)
 
 
 School age children are increasingly exposed to digital media and online technology at an early age. They are going online to do schoolwork, play games, and socialize with over 4 billion people (1 in 3 children) connected to the internet. Around 60% of fourth to eighth graders have access to phones or tablets and almost half of them have access to a computer in their bedrooms. Being online can astronomically magnify threats and risks that vulnerable children already face offline. Access to the internet can lead to risks of exposure to online predators  posed by online sexual abuse and exploitation, cyberbullying, exposure to harmful inappropriate content, and use and sharing of personal data. The COVID19 global pandemic with it's lockdown measures has led to widespread school closures and physical distancing measures increasing our dependence on technology to connect. Law enforcement authorities and reporting agencies have seen a statistically signficant increase in the amount of child sexual abuse material being shared online, of which an ever increasing percentage involves self-generated content.
 
-Innovation at UNICEF is about doing new things to solve problems and improve the lives of children around the world. Technological solutions like Online Protection Tools are key to efficiently respond the digital risks for children. Four categories of digital risks defined by UNICEF:  Content, Contact, Conduct and Contract Risks: https://www.unicef.org/innovation/apply-ChildOnlineSafety. Focusing on Content Risks, which is defined as exposure to harmful or age-inappropriate content, such as pornography, child sexual abuse material, hate speech and extremism, discriminatory or hateful content, disinformation, online games, gambling, content that endorses risky or unhealthy behaviours and violent content which may be upsetting or show criminal activity. 
-
-
 ---
 ## Technical Solution
+
+Innovation at UNICEF is about doing new things to solve problems and improve the lives of children around the world. Technological solutions like Online Protection Tools are key to efficiently respond the digital risks for children. Four categories of digital risks defined by UNICEF:  Content, Contact, Conduct and Contract Risks: https://www.unicef.org/innovation/apply-ChildOnlineSafety. Focusing on Content Risks, which is defined as exposure to harmful or age-inappropriate content, such as pornography, child sexual abuse material, hate speech and extremism, discriminatory or hateful content, disinformation, online games, gambling, content that endorses risky or unhealthy behaviours and violent content which may be upsetting or show criminal activity. 
+
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
 * **Salty-Wet-Man identifies images solving a binary classification problem:**
