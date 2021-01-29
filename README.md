@@ -1,8 +1,6 @@
 # Salty Wet Man
 
-Inspired by the #Metoo and #Timesup movements in the fight for gender equity in the workplace to create safe economic opportunities for women. Salty Wet Man is a Not Suitable for Work image classification trained on the ImageNet dataset. Defining NSFW material is subjective and the task of identifying these images is non-trivial. Salty-Wet-Man identifies images into two categories: [SFW] positively trained for neutral images that are safe for work [NSFW] negatively trained for pornographic images involving sexually explicit images.
-
-CNN for large-scale image recognition model implementation achieves object recognition functionalities like Content-Based Retrival via Localization, Image Detection, and Segmentation, and Image Region Proposal Cropping.
+The goal of Salty Wet Man is to flag inappropriate online content to make the internet a safe and inclusive space for children. It is a Not Suitable for Work image classification trained on the ImageNet dataset. Defining NSFW material is subjective and the task of identifying these images is non-trivial. Salty-Wet-Man identifies images into two categories: [SFW] positively trained for neutral images that are safe for work [NSFW] negatively trained for pornographic images involving sexually explicit images. CNN for large-scale image recognition model implementation achieves object recognition functionalities like Content-Based Retrival via Localization, Image Detection, and Segmentation, and Image Region Proposal Cropping.
 
 *Warning. Repo contains abstract nudity and may be unsuitable for the workplace.*
 
@@ -16,14 +14,13 @@ CNN for large-scale image recognition model implementation achieves object recog
 </div>
 
 ![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
-*The creepy ass emails I get from coworkers with no context.*
 
 
 -------------
 
 ## Table_of_Contents 
 
-* [Half the Sky Motivation](#Half_the_sky_Motivation)
+* [Motivation](#Motivation)
 * [Technical Solution](#Technical_solution)
 * [Convolutional Neural Networks](#Convolutional_Neural_Networks)
 * [Object Recognition](#Object_Recognition_) 
@@ -36,26 +33,19 @@ CNN for large-scale image recognition model implementation achieves object recog
 * [References](#References_) 
 
 ---
-## Half the Sky Motivation 
+## Motivation: Child Online Safety
 
-* Ending gender-based violence
-  * Unwanted sexual behaviour while in public, unwanted sexual behaviour online, unwanted sexual behaviour in the workplace, sexual assault, and physical assault:
-  * One in three (32%) women experienced unwanted sexual behaviour in public
-  * One in five (18%) women experienced online harassment
-  * Three in ten (29%) women were targeted by inappropriate sexual behaviour in a work-related environment
-  * Four in ten (39%) of women have been physically or sexually assaulted since the age of 15
+Chess game. A chessboard features 16 playing pieces with 6 types where each piece has special moves and the end game is to capture the opponent's King resulting in "checkmate". What is the most powerful piece on the chess board? 
 
-* #Metoo
-  * In 2006, Tarana Burke founded the Me Too movement and began using the phrase "Me Too" 
-  * Social movement against sexual abuse and sexual harassment where people publicize allegations of sex crimes committed by powerful prominent men.
-  * Helps to show survivors of sexual abuse that they are not alone. 
-  * Improve awareness about sexual violence, showing widespread sexual harassment and assault 
-  
-* #Timesup
-  * Time's Up is a social movement against sexual harassment founded on January 1, 2018 by Hollywood celebrities in response to the Weinstein effect and #MeToo
-  * Focused on workplace equity and creating equal economic opportunities for women and people of color
-  * **“Time’s Up was founded on the premise that everyone, every human being, deserves a right to earn a living, to take care of themselves, to take care of their families, free of the impediments of harassment and sexual assault and discrimination.”**
-  * As of December 2018, it has raised more than $22 million for its legal defense fund, and gathered nearly 800 volunteer lawyers.  
+Many people will say the King or Queen because they are the highest rank. However I believe the most powerful are the nine Pawns (lowest rank). This is because through pawn promotion gameplay, the nine Pawns have the power to get promoted to become Queens, Rooks, Bishops, or Knights. Therefore we need to nurture and protect them as they are seeds for the future.
+
+![https://github.com/lucylow/salty-wet-man/blob/master/readme-images/queensgambit.jpg]
+
+
+School age children are increasingly exposed to digital media and online technology at an early age. They are going online to do schoolwork, play games, and socialize with over 4 billion people (1 in 3 children) connected to the internet. Around 60% of fourth to eighth graders have access to phones or tablets and almost half of them have access to a computer in their bedrooms. Being online can astronomically magnify threats and risks that vulnerable children already face offline. Access to the internet can lead to risks of exposure to online predators  posed by online sexual abuse and exploitation, cyberbullying, exposure to harmful inappropriate content, and use and sharing of personal data. The COVID19 global pandemic with it's lockdown measures has led to widespread school closures and physical distancing measures increasing our dependence on technology to connect. Law enforcement authorities and reporting agencies have seen a statistically signficant increase in the amount of child sexual abuse material being shared online, of which an ever increasing percentage involves self-generated content.
+
+Innovation at UNICEF is about doing new things to solve problems and improve the lives of children around the world. Technological solutions like Online Protection Tools are key to efficiently respond the digital risks for children. Four categories of digital risks defined by UNICEF:  Content, Contact, Conduct and Contract Risks: https://www.unicef.org/innovation/apply-ChildOnlineSafety. Focusing on Content Risks, which is defined as exposure to harmful or age-inappropriate content, such as pornography, child sexual abuse material, hate speech and extremism, discriminatory or hateful content, disinformation, online games, gambling, content that endorses risky or unhealthy behaviours and violent content which may be upsetting or show criminal activity. 
+
 
 ---
 ## Technical Solution
@@ -67,7 +57,6 @@ CNN for large-scale image recognition model implementation achieves object recog
   
   * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
   
-
 ---
 
 
@@ -295,11 +284,20 @@ yarn visualize --image waifu-pic.jpeg
 
 ---
 
-## References 
 
-* Lean In. Women in the Workplace 2020 https://wiw-report.s3.amazonaws.com/Women_in_the_Workplace_2020.pdf
-* Women and the workplace – How employers can advance equality and diversity – Report from the Symposium on Women and the Workplace
- https://www.canada.ca/en/employment-social-development/corporate/reports/women-symposium.html
+## Potential for Global Scale Application
+
+Solution has the potential to positively impact the lives children and young people
+
+
+
+
+---
+
+## References 
+* https://www.unicef.org/innovation/apply-ChildOnlineSafety
+* https://www.consumernotice.org/data-protection/internet-safety-for-kids/#explaining-online-risks-to-kids
+* https://raisingchildren.net.au/school-age/play-media-technology/online-safety/internet-safety-6-8-years 
 * Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition . https://arxiv.org/abs/1409.1556
 * Alex Krizhevsky. 2012. ImageNet Classification with Deep Convolutional Networks
 * Yahoo Engineering's Caffe DL library and CaffeOnSpark model. https://yahooeng.tumblr.com/post/151148689421/open-sourcing-a-deep-learning-solution-for
