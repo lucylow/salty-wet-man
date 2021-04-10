@@ -13,7 +13,6 @@ The goal of Salty Wet Man is to flag inappropriate online content to make the in
 
 </div>
 
-![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/creepyasfuck.png)  
 
 
 -------------
