@@ -34,7 +34,7 @@ The goal of Salty Wet Man is to flag inappropriate online content to make the in
 * [References](#References_) 
 
 ---
-## Motivation: Online Safety
+## Motivation: Child Online Safety
 
 Chess game. A chessboard features 16 playing pieces with 6 types where each piece has special moves and the end game is to capture the opponent's King resulting in "checkmate". What is the most powerful piece on the chess board? Many people will say the King or Queen because they are the highest rank. However I believe the most powerful are the nine Pawns (lowest rank). This is because through pawn promotion gameplay, the nine Pawns have the power to get promoted to become Queens, Rooks, Bishops, or Knights. Therefore we need to nurture and protect them as they are seeds for the future. 
 
