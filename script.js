@@ -128,7 +128,7 @@ $(function () {
 		var value = $("#rad-chat-txt").val();
 		var $ele = $(".rad-chat-body");
 		var img =
-			"https://i.ibb.co/7nMzCX1/Screen-Shot-2021-03-22-at-11-01-06-PM.png";
+			"";
 		
 		if (value) {
 			$("#rad-chat-txt").val("");
