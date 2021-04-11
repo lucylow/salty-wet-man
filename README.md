@@ -30,6 +30,7 @@ The goal of Salty Wet Man is to flag inappropriate online content to make the in
 * [Neural Network: Errors and Overfitting](#Neural_Network_Errors_and_Overfitting_) 
 * [Technical Installations](#Technical_Installations_) 
 * [Technical Visualizations](#Technical_Visualizations_) 
+* [Technical User Privacy Considerations](#technical_user_privacy_considerations-)
 * [References](#References_) 
 
 ---
@@ -276,6 +277,22 @@ Default image used for **internal-activation** and **CAM visualization** is **"n
 ```sh
 yarn visualize --image waifu-pic.jpeg
 ```
+
+---
+
+## Technical_User_Privacy_Considerations ;
+
+* **HTML5 Local Storage Data**
+  * Bingo cache stores data on user's local device
+  * **Data.js information is removed when user clears cache**
+  * Storage.setItem( 'game_state', JSON.stringify(gameState));
+
+
+* **User.js File**
+  * User.js file added for user privacy 
+  * Template for **configuring privacy and security**
+  * Reduce tracking from web analytics, tracking, finger-printing, or shoulder surfers
+  * **Harden browser settings** against data disclosure or code execution vulnerabilities
 
 ---
 
