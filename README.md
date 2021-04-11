@@ -25,14 +25,14 @@ The goal of Salty Wet Man is to flag inappropriate online content to make the in
 * [Object Recognition](#Object_Recognition_) 
 * [NSFW Object Recognition: Content-Based Retrival via Localization](#NSFW_Object_Recognition_Content-Based_Retrival_via_Localization_) 
 * [NSFW Object Recognition: Image Cropping](#NSFW_Object_Recognition_Image_Cropping_) 
-* [Neural Network: Classifier VGG16 Model](#Neural_Network_Classifier_VGG16_Model_) 
+* [Neural Network: Classifier Model](#Neural_Network_Classifier_Model_) 
 * [Neural Network: Errors and Overfitting](#Neural_Network_Errors_and_Overfitting_) 
 * [Technical Installations](#Technical_Installations_) 
 * [Technical Visualizations](#Technical_Visualizations_) 
 * [References](#References_) 
 
 ---
-## Motivation: Child Online Safety
+## Motivation: Online Safety
 
 Chess game. A chessboard features 16 playing pieces with 6 types where each piece has special moves and the end game is to capture the opponent's King resulting in "checkmate". What is the most powerful piece on the chess board? Many people will say the King or Queen because they are the highest rank. However I believe the most powerful are the nine Pawns (lowest rank). This is because through pawn promotion gameplay, the nine Pawns have the power to get promoted to become Queens, Rooks, Bishops, or Knights. Therefore we need to nurture and protect them as they are seeds for the future. 
 
@@ -46,7 +46,7 @@ Children are increasingly exposed to digital media and online technology at an e
 Access to the internet can lead to risks of exposure to online predators  posed by online sexual abuse and exploitation, cyberbullying, exposure to harmful inappropriate content, and use and sharing of personal data. The COVID19 global pandemic with it's lockdown measures has led to widespread school closures and physical distancing measures increasing our dependence on technology to connect. Law enforcement authorities and reporting agencies have seen a statistically signficant increase in the amount of child sexual abuse material being shared online, of which an ever increasing percentage involves self-generated content.
 
 ---
-## Technical Solution
+## Computer Vision Technical Solution
 
 Innovation at UNICEF is about doing new things to solve problems and improve the lives of children around the world. Technological solutions like Online Protection Tools are key to efficiently respond the digital risks for children. Four categories of digital risks defined by UNICEF:  Content, Contact, Conduct and Contract Risks: https://www.unicef.org/innovation/apply-ChildOnlineSafety. Focusing on Content Risks, which is defined as exposure to harmful or age-inappropriate content, such as pornography, child sexual abuse material, hate speech and extremism, discriminatory or hateful content, disinformation, online games, gambling, content that endorses risky or unhealthy behaviours and violent content which may be upsetting or show criminal activity. 
 
