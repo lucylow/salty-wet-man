@@ -5434,7 +5434,7 @@ function getChartData() {
 				$oid: "52853801bb1177ca391c1848"
 			},
 			Ticker: "ACWX",
-			Sector: "Financial",
+			Sector: "IMAGES",
 			"Change from Open": 0.0072,
 			"Performance (YTD)": 0.1112,
 			"Performance (Week)": -0.0119,
