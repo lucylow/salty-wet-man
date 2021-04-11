@@ -485,7 +485,7 @@ $(function () {
 			position +
 			'"><img class="rad-list-img" src=' +
 			img +
-			' alt="me" /></span><div class="rad-list-content rad-chat"><span class="lg-text">Merck </span><span class="sm-text"><i class="fa fa-clock-o"></i> ' +
+			' alt="me" /></span><div class="rad-list-content rad-chat"><span class="lg-text">Child </span><span class="sm-text"><i class="fa fa-clock-o"></i> ' +
 			formatTime(new Date()) +
 			'</span><div class="rad-chat-msg">' +
 			text +
