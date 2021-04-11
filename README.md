@@ -14,6 +14,7 @@ The goal of Salty Wet Man is to flag inappropriate online content to make the in
 </div>
 
 
+![](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/Screen%20Shot%202021-04-11%20at%2010.11.55%20AM.png)
 
 -------------
 
