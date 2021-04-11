@@ -135,7 +135,7 @@ $(function () {
 			$ele.append(getTempl(img, value, "left"));
 			
 			setTimeout(function () {
-				img = "https://i.ibb.co/8NYrH6f/Screen-Shot-2021-03-23-at-12-37-14-AM.png";
+				img = "";
 				$ele.append(getTempl(img, "Online child safety is important!", "UNICEF Innovation Fund is great."));
 				$ele.slimScroll({
 					scrollTo: $ele[0].scrollHeight
