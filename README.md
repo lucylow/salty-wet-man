@@ -130,7 +130,6 @@ Innovation at UNICEF is about doing new things to solve problems and improve the
     * Find a set of images similar to a query image
 
 
-        ![Image retrival algorithm](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/QBIC%20pipeline.png)
 
 **Elongated Regions Grouping**
 
@@ -146,7 +145,6 @@ Innovation at UNICEF is about doing new things to solve problems and improve the
   * Minimum distance classifer to match feature vectors
   
   
-    ![RNN1](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN1.png)
 
 
 ---
@@ -165,7 +163,6 @@ Innovation at UNICEF is about doing new things to solve problems and improve the
 * Training data for this super expensive - need to find images with every pixel labeled
 
 
-    ![RNN2](https://github.com/lucylow/salty-wet-man/blob/master/readme-images/RCNN2.png)
 
 ---
 
@@ -184,18 +181,14 @@ Innovation at UNICEF is about doing new things to solve problems and improve the
 
 ---
 
-## Neural_Network_Classifier_VGG16_Model
+## Neural_Network_Classifier_Model
 
 * VGG16 is a CNN for large-scale image recognition 
 * **Model achieves 92.7% top-5 test accuracy on ImageNet**
 * Implemented with Keras and Tensorflow backend in this project
 
 
-<p align="center"><img  src="https://user-images.githubusercontent.com/17570785/50308873-e2eb6e00-049c-11e9-9587-9da6bdec011b.png" ></p>
-
-   [Image of VGG16 architecture](https://github.com/lucylow/PlotNeuralNet/blob/master/examples/VGG16/vgg16.pdf)
-
-**VGG16 Architecture**
+**Architecture**
 
 * **Fixed input of 224 x 224 RGB image**
 * Three fully-connected (FC) layers 
@@ -205,14 +198,14 @@ Innovation at UNICEF is about doing new things to solve problems and improve the
 * Final layer is soft-max layer
 * **Total 16 Layers**
 
-**VGG16 Disadvantages**
+**Disadvantages**
 
 * Super slow - takes weeks to train
 * **Large disk/bandwidth network achitecture with +533MB**
 * Consider varient VGG19 classifer
 
 
-**VGG16 Keras Implementation**
+**Keras Implementation**
 
 > keras.applications.vgg16.VGG16(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
 
