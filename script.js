@@ -136,7 +136,7 @@ $(function () {
 			
 			setTimeout(function () {
 				img = "https://i.ibb.co/8NYrH6f/Screen-Shot-2021-03-23-at-12-37-14-AM.png";
-				$ele.append(getTempl(img, "Good Luck on MaRS Lung Cancer Innovation Challenge", "The people at MaRS Lung Cancer Innovation Challenge are so smart"));
+				$ele.append(getTempl(img, "Online child safety is important!", "UNICEF Innovation Fund is great."));
 				$ele.slimScroll({
 					scrollTo: $ele[0].scrollHeight
 				});
