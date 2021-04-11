@@ -56,7 +56,7 @@ Innovation at UNICEF is about doing new things to solve problems and improve the
 
   * [SFW] positively trained for **neutral images** that are safe for work
   
-  * [NSFW] negatively trained for **pornographic images** involving sexually explicit images
+  * [NSFW] negatively trained for **inappropriate images** that are not safe for work
   
 ---
 
