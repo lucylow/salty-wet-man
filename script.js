@@ -5756,7 +5756,7 @@ function getChartData() {
 			"EPS growth past 5 years": -0.08500000000000001,
 			"Total Debt/Equity": 0.79,
 			"Return on Assets": 0.047,
-			Sector: "Financial",
+			Sector: "IMAGES",
 			"P/S": 9.619999999999999,
 			"Change from Open": 0,
 			"Performance (YTD)": 0.2204,
