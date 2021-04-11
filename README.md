@@ -52,7 +52,7 @@ Innovation at UNICEF is about doing new things to solve problems and improve the
 
 
 * Defining NSFW material is subjective and the task of identifying these images is **non-trivial**
-* **Salty-Wet-Man identifies images solving a binary classification problem:**
+* **Salty-Wet-Man identifies images solving a binary classification success/failure problem:**
 
   * [SFW] positively trained for **neutral images** that are safe for work
   
