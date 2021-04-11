@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Legacy Parental Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section>
+	<header>
+		
+		<nav class="rad-navigation">
+			<div class="rad-logo-container rad-nav-min">
+				<a href="#" class="rad-logo"><i class=" fa fa-user-md"></i> Legacy Parental Control</a>
+				<a href="#" class="rad-toggle-btn pull-right"><i class="fa fa-bars"></i></a>
+			</div>
+			<a href="#" class="rad-logo-hidden">Legacy Parental Control</a>
+			<div class="rad-top-nav-container">
+				<a href="" class="brand-icon"><i class="fa fa-recycle"></i></a>
+				<ul class="pull-right links">
+					<li class="rad-dropdown no-color">
+						<a class="rad-menu-item" href="#"><img class="rad-list-img sm-img" src="https://i.ibb.co/7nMzCX1/Screen-Shot-2021-03-22-at-11-01-06-PM.png" alt="me" /></a>
+						<ul class="rad-dropmenu-item sm-menu">
+							<li class="rad-notification-item">
+								<a class="rad-notification-content lg-text" href="#"><i class="fa fa-edit"></i> Child Profiles</a>
+							</li>
+							<li class="rad-notification-item">
+								<a class="rad-notification-content lg-text" href="#"><i class="fa fa-power-off"></i> Sign out</a>
+							</li>
+						</ul>
+					</li>
+					<li class="rad-dropdown"><a class="rad-menu-item" href="#"><i class="fa fa-cog"></i></a>
+						<ul class="rad-dropmenu-item rad-settings">
+							<li class="rad-dropmenu-header"><a href="#">Settings</a></li>
+							<li class="rad-notification-item text-left">
+								<div class="pull-left"><i class="fa fa-link"></i></div>
+								<div class="pull-right">
+									<label class="rad-chk-pin pull-right">
+										<input type="checkbox" /><span></span></label>
+								</div>
+								<div class="rad-notification-body">
+									<div class="lg-text">Change to Child Profile</div>
+									<div class="sm-text">Family Mode</div>
+								</div>
+							</li>
+							<li id="rad-color-opts" class="rad-notification-item text-left hide">
+								<div class="pull-left"><i class="fa fa-puzzle-piece"></i></div>
+								<div class="pull-right">
+									<div class="rad-color-swatch">
+										<label class="colors rad-bg-crimson rad-option-selected">
+											<input type="radio" checked name="color" value="crimson" />
+										</label>
+										<label class="colors rad-bg-teal">
+											<input type="radio" name="color" value="teal" />
+										</label>
+										<label class="colors rad-bg-purple">
+											<input type="radio" name="color" value="purple">
+										</label>
+										<label class="colors rad-bg-orange">
+											<input type="radio" name="color" value="orange" />
+										</label>
+										<label class="colors rad-bg-twitter">
+											<input type="radio" name="color" value="twitter" />
+										</label>
+									</div>
+								</div>
+								<div class="rad-notification-body">
+									<div class="lg-text">Choose a color</div>
+									<div class="sm-text"></div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="pull-right links">
+					<li>
+						<a class="rad-menu-item" href="#"><i class="fa fa-comment-o"><span class="rad-menu-badge rad-bg-success">0</span></i></a>
+					</li>
+					<li class="rad-dropdown"><a class="rad-menu-item" href="#"><i class="fa fa-envelope-o"><span class="rad-menu-badge rad-bg-primary">23</span></i></a>
+						<ul class="rad-dropmenu-item">
+							<li class="rad-dropmenu-header"><a href="#">Your Notifications</a></li>
+							<li class="rad-notification-item text-left">
+								<a class="rad-notification-content" href="#">
+									<div class="pull-left"><i class="fa fa-html5 fa-2x"></i>
+									</div>
+									<div class="rad-notification-body">
+										<div class="lg-text">Results from parental control report</div>
+										<div class="sm-text">Report inappropriate content to authorities</div>
+									</div>
+								</a>
+							</li>
+							<li class="rad-notification-item text-left">
+								<a class="rad-notification-content" href="#">
+									<div class="pull-left"><i class="fa fa-bitbucket fa-2x"></i>
+									</div>
+									<div class="rad-notification-body">
+										<div class="lg-text">RE: Emergency SMS message from Child1</div>
+										<div class="sm-text">Urgent</div>
+									</div>
+								</a>
+							</li>
+							<li class="rad-notification-item text-left">
+								<a class="rad-notification-content" href="#">
+									<div class="pull-left"><i class="fa fa-google fa-2x"></i>
+									</div>
+									<div class="rad-notification-body">
+										<div class="lg-text">Contact Information</div>
+										<div class="sm-text">low.lucyy@gmail.com</div>
+									</div>
+								</a>
+							</li>
+							<li class="rad-dropmenu-footer"><a href="#">See all notifications</a></li>
+						</ul>
+					</li>
+					<li class="rad-dropdown"><a class="rad-menu-item" href="#"><i class="fa fa-bell-o"><span class="rad-menu-badge">49</span></i></a>
+						<ul class="rad-dropmenu-item">
+							<li class="rad-dropmenu-header"><a href="#">Alerts/Notifications</a></li>
+							<li class="rad-notification-item text-left">
+								<a class="rad-notification-content" href="#">
+									<div class="pull-left"><i class="fa fa-html5 fa-2x"></i>
+									</div>
+									<div class="rad-notification-body">
+										<div class="lg-text">Results from email, text, photo, and video computer vision scan report</div>
+										<div class="sm-text">Social media monitoring activated</div>
+										<em class="pull-right sm-text"><i class="fa fa-clock-o"></i> 2 sec ago</em>
+									</div>
+								</a>
+							</li>
+							<li class="rad-notification-item text-left">
+								<a class="rad-notification-content" href="#">
+									<div class="pull-left"><i class="fa fa-bitbucket fa-2x"></i>
+									</div>
+									<div class="rad-notification-body">
+										<div class="lg-text"> Parental alerts with recommendations</div>
+										<div class="sm-text">Connect with child psychologist</div>
+										<em class="pull-right sm-text"><i class="fa fa-clock-o"></i> 49 mins ago</em>
+									</div>
+								</a>
+							</li>
+							<li class="rad-notification-item text-left">
+								<a class="rad-notification-content" href="#">
+									<div class="pull-left"><i class="fa fa-google fa-2x"></i>
+									</div>
+									<div class="rad-notification-body">
+										<div class="lg-text">Contact information</div>
+										<div class="sm-text">low.lucyy@gmail.com</div>
+										<em class="pull-right sm-text"><i class="fa fa-clock-o"></i> 2 days ago</em>
+									</div>
+								</a>
+							</li>
+							<li class="rad-dropmenu-footer"><a href="#">See all alerts</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+</section>
+<aside>
+	<nav class="rad-sidebar rad-nav-min">
+		<ul>
+			<li>
+				<a href="" class="inbox">
+					<i class="fa fa-dashboard"><span class="icon-bg rad-bg-success"></span></i>
+					<span class="rad-sidebar-item">Parental Control Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="../model.html">
+					<i class="fa fa-bar-chart-o">
+						<span class="icon-bg rad-bg-danger"></span>
+					</i>
+					<span class="rad-sidebar-item">Content Filters</span>
+				</a>
+			</li>
+			<li><a href="#" class="snooz"><i class="fa fa-line-chart"><span class="icon-bg rad-bg-primary"></span></i><span class="rad-sidebar-item">Social Media Monitoring</span></a></li>
+			<li><a href="#" class="done"><i class="fa fa-area-chart"><span class="icon-bg rad-bg-warning"></span></i><span class="rad-sidebar-item">Recommendations </span></a></li>
+			<li>
+				<a href="../molecular_docking.html">
+					<i class="fa fa-wrench"><span class="icon-bg rad-bg-violet"></span></i>
+					<span class="rad-sidebar-item">Report
+
+</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</aside>
+<main>
+	<section>
+		<div class="rad-body-wrapper rad-nav-min">
+			<div class="container-fluid">
+				<header class="rad-page-title">
+					<span>Dashboard</span>
+					<small class="md-txt">Hi Lucy, welcome to your data-driven parental control dashboard! <a href="https://www.google.com/maps/place/3720+Emerald+St,+Torrance,+CA+90503/@33.8403836,-118.3543828,17z/data=!4m18!1m15!4m14!1m6!1m2!1s0x80c2b4d407f58b11:0xdedca55964c89054!2s3720+Emerald+St,+Torrance,+CA+90503!2m2!1d-118.3520761!2d33.8403792!1m6!1m2!1s0x80c2b4d407f58b11:0xdedca55964c89054!2s3720+Emerald+St,+Torrance,+CA+90503!2m2!1d-118.3520761!2d33.8403792!3m1!1s0x80c2b4d407f58b11:0xdedca55964c89054" target="_blank"><i class="fa fa-map-marker rad-txt-danger"></i>GPS Location</a></small>					</header>
+				<div class="row">
+					<div class="col-lg-3 col-xs-6">
+						<div class="rad-info-box rad-txt-success">
+							<i class="fa fa-user-md"></i>
+							<span class="heading">Content filtering updates</span>
+							<span class="value"><span>4949</span></span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-xs-6">
+						<div class="rad-info-box rad-txt-primary">
+							<i class="fa fa-user-md"></i>
+							<span class="heading">Access requests</span>
+							<span class="value"><span>23K</span></span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-xs-6">
+						<div class="rad-info-box rad-txt-danger">
+							<i class="fa fa-user-md"></i>
+							<span class="heading">Panic <Button:disabled></Button:disabled></span>
+							<span class="value"><span>149k</span></span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-xs-6">
+						<div class="rad-info-box">
+							<i class="fa fa-user-md"></i>
+							<span class="heading">Bad language alerts</span>
+							<span class="value"><span>10.9K</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"> Location tracking with Geofencing (Set up safe areas for children, and get alerts if they leave the boundaries)<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body rad-map-container">
+								<div id="world-map" class="rad-map"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Search history<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div id="areaChart" class="rad-chart"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Scans emails, texts, photos, and videos <ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div id="areaChart2" class="rad-chart"></div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Identify risky behavior Activity<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div class="rad-activity-body">
+								<div class="rad-list-group group">
+									<div class="rad-list-group-item">
+										<div class="rad-list-icon icon-shadow rad-bg-danger pull-left"><i class="fa fa-phone"></i></div>
+										<div class="rad-list-content"><strong>Patient screening</strong>
+
+										</div>
+									</div>
+									<div class="rad-list-group-item">
+										<div class="rad-list-icon icon-shadow rad-bg-primary pull-left"><i class="fa fa-refresh"></i></div>
+										<div class="rad-list-content"><strong>CT Scan scheduled</strong>
+
+										</div>
+									</div>
+									<div class="rad-list-group-item">
+										<div class="rad-list-icon icon-shadow rad-bg-success pull-left"><i class="fa fa-check"></i></div>
+										<div class="rad-list-content"><strong>Radiologist assigned to check results</strong>
+											<div class="md-text"></div>
+										</div>
+									</div>
+									<div class="rad-list-group-item">
+										<div class="rad-list-icon icon-shadow rad-bg-violet pull-left"><i class="fa fa-envelope"></i></div>
+										<div class="rad-list-content"><strong>Diagnosis </strong>
+											<div class="md-text"> </div>
+										</div>
+									</div>
+									<div class="rad-list-group-item">
+										<div class="rad-list-icon icon-shadow rad-bg-success pull-left"><i class="fa fa-pencil"></i></div>
+										<div class="rad-list-content"><strong>Customized treatments and recommendations</strong>
+			
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-8 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Online activity reports
+									<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div id="donutChart" class="rad-chart"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Website blocker (Block access to selected website categories, and get alerts if someone accesses other risky sites (like chat rooms) that may not be on the blocked list)<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div id="lineChart" class="rad-chart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Screen time management
+									(Schedule online time for your child every day, or give them a daily or weekly allowance of time that they can use at their discretion) <ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div id="barChart3" class="rad-chart"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"> low battery alerts (notification for when child’s phone needs a charge) <ul class="rad-panel-action">
+									
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div id="barChart2" class="rad-chart"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">block access  based on age restrictions or category<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-rotate-right"></i></li>
+																	<li><i class="fa fa-cog"></i>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div id="barChart" class="rad-chart"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"> Safe text and instant messaging<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div class="rad-chat-body">
+									<div class="rad-list-group">
+										<div class="rad-list-group-item left">
+											<span class="rad-list-icon pull-left"><img class="rad-list-img" src="https://i.ibb.co/7nMzCX1/Screen-Shot-2021-03-22-at-11-01-06-PM.png" alt="me" /></span>
+											<div class="rad-list-content rad-chat">
+												<span class="lg-text">Me</span>
+												<span class="sm-text"><i class="fa fa-clock-o"></i> 11:20 pm</span>
+												<div class="rad-chat-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at.</div>
+											</div>
+										</div>
+										<div class="rad-list-group-item right">
+											<span class="rad-list-icon pull-right"><img class="rad-list-img" src="https://i.ibb.co/8NYrH6f/Screen-Shot-2021-03-23-at-12-37-14-AM.png" alt=""></span>
+											<div class="rad-list-content rad-chat">
+												<span class="lg-text">Merck</span>
+												<span class="sm-text"><i class="fa fa-clock-o"></i> 11:30 pm</span>
+												<div class="rad-chat-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+											</div>
+										</div>
+										<div class="rad-list-group-item left">
+											<span class="rad-list-icon pull-left"><img class="rad-list-img" src="https://i.ibb.co/7nMzCX1/Screen-Shot-2021-03-22-at-11-01-06-PM.png" alt="me" /></span>
+											<div class="rad-list-content rad-chat">
+												<span class="lg-text">Me</span>
+												<span class="sm-text"><i class="fa fa-clock-o"></i> 11:31 pm</span>
+												<div class="rad-chat-msg">Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. <i class="fa fa-smile-o rad-txt-warning"></i></div>
+											</div>
+										</div>
+										<div class="rad-list-group-item left">
+											<span class="rad-list-icon pull-left"><img class="rad-list-img" src="https://i.ibb.co/7nMzCX1/Screen-Shot-2021-03-22-at-11-01-06-PM.png" alt="me" /></span>
+											<div class="rad-list-content rad-chat">
+												<span class="lg-text">Me</span>
+												<span class="sm-text"><i class="fa fa-clock-o"></i> 11:20 pm</span>
+												<div class="rad-chat-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at.</div>
+											</div>
+										</div>
+										<div class="rad-list-group-item right">
+											<span class="rad-list-icon pull-right"><img class="rad-list-img" src="https://i.ibb.co/8NYrH6f/Screen-Shot-2021-03-23-at-12-37-14-AM.png" alt=""></span>
+											<div class="rad-list-content rad-chat">
+												<span class="lg-text">Merck</span>
+												<span class="sm-text"><i class="fa fa-clock-o"></i> 11:30 pm</span>
+												<div class="rad-chat-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+											</div>
+										</div>
+										<div class="rad-list-group-item left">
+											<span class="rad-list-icon pull-left"><img class="rad-list-img" src="https://i.ibb.co/7nMzCX1/Screen-Shot-2021-03-22-at-11-01-06-PM.png" alt="me" /></span>
+											<div class="rad-list-content rad-chat">
+												<span class="lg-text">Me</span>
+												<span class="sm-text"><i class="fa fa-clock-o"></i> 11:31 pm</span>
+												<div class="rad-chat-msg">Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. <i class="fa fa-smile-o rad-txt-warning"></i></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="panel-footer">
+								<div class="input-group">
+									<input type="text" id="rad-chat-txt" placeholder="Type a message" class="form-control" /><span class="input-group-btn"><button id="rad-chat-send" class="btn btn-info">Send</button></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"> Screen time management<ul class="rad-panel-action">
+																	<li><i class="fa fa-chevron-down"></i></li>
+																	<li><i class="fa fa-close"></i>
+																	</li>
+																</ul></h3>
+							</div>
+							<div class="panel-body">
+								<div class="rad-timeline-body">
+									<ul class="rad-timeline">
+										<li class="rad-timeline-item">
+											<div class="rad-timeline-badge rad-bg-danger"><i class="fa fa-signal"></i><span class="pull-right"><i class="fa fa-clock-o"></i> 28m ago</span></div>
+											<div class="rad-timeline-panel pull-right">Donec id risus convallis, tempor sapien eu, feugiat justo. Nulla luctus ut libero nec aliquet. Mauris non mollis justo. Quisque ac dignissim nulla.</div>
+										</li>
+										<li class="rad-timeline-item">
+											<div class="rad-timeline-badge rad-bg-success"><i class="fa fa-rocket"></i><span class="pull-left"><i class="fa fa-clock-o"></i> 23m ago</span></div>
+											<div class="rad-timeline-panel ">Nulla eu maximus enim. </div>
+										</li>
+										<li class="rad-timeline-item">
+											<div class="rad-timeline-badge rad-bg-warning"><i class="fa fa-linux"></i><span class="pull-right"><i class="fa fa-clock-o"></i> 13m ago</span></div>
+											<div class="rad-timeline-panel pull-right">Aliquam commodo odio mi, pulvinar volutpat sem tempor ut. </div>
+										</li>
+										<li class="rad-timeline-item">
+											<div class="rad-timeline-badge rad-bg-violet"><i class="fa fa-stack-overflow"></i><span class="pull-left"><i class="fa fa-clock-o"></i> 13m ago</span></div>
+											<div class="rad-timeline-panel ">In convallis velit ac arcu volutpat euismod. Vestibulum ultricies nisi et nunc maximus dictum. Mauris id viverra erat. Aliquam varius venenatis enim a blandit. Donec id risus convallis, tempor sapien eu, feugiat justo. </div>
+										</li>
+										<li class="rad-timeline-item">
+											<div class="rad-timeline-badge rad-bg-danger"><i class="fa fa-wordpress"></i><span class="pull-right"><i class="fa fa-clock-o"></i> 7m ago</span></div>
+											<div class="rad-timeline-panel pull-right">Nulla luctus ut libero nec aliquet. Mauris non mollis justo. Quisque ac dignissim nulla.</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="panel-footer">
+								<div class="rad-timeline-footer">
+									<p></p>
+									<p class="pull-right"><i class="fa fa-comments-o"></i></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js'></script>
+<script src='https://code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.3/jquery.slimscroll.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.8.0/lodash.min.js'></script>
+<script src='https://jvectormap.com/js/jquery-jvectormap-2.0.5.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js'></script>
+<script src='https://jvectormap.com/js/jquery-jvectormap-world-mill.js'></script><script  src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8.3/dist/teachablemachine-image.min.js"></script>
+
+</body>
+</html>
