@@ -280,10 +280,10 @@ yarn visualize --image waifu-pic.jpeg
 
 ---
 
-## Technical_User_Privacy_Considerations ;
+## Technical_User_Privacy_Considerations
 
 * **HTML5 Local Storage Data**
-  * Bingo cache stores data on user's local device
+  * Salty Wet Man cache stores data on user's local device
   * **Data.js information is removed when user clears cache**
   * Storage.setItem( 'game_state', JSON.stringify(gameState));
 
